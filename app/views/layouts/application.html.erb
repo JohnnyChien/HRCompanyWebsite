@@ -2,14 +2,26 @@
 <html>
 	<head>
 	  <title>HRWebsite</title>
-	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	  <%= csrf_meta_tags %>
 	</head>
 	<body>
 		<div class="container">
-			<div class="user-header">
-				<%= link_to "Sign Up", new_user_path, class: 'pull-right' %>
+			<div class="user-header row">
+				<% if current_user %>
+					<div class="action-item pull-right">
+						Logged in as <%= current_user.email %>
+						<%= link_to "Log Out", session_path("current"), method: "delete" %>
+					</div>
+				<% else %>
+					<div class="action-item pull-right">
+						<%= link_to "Sign Up", new_user_path %>
+					</div>
+					<div class="action-item pull-right">
+						<%= link_to "Log In", new_session_path %>
+					</div>
+				<% end %>
 			</div>
 
 			<% flash.each do |name, msg| %>
