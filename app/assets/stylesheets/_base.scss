@@ -1,0 +1,14 @@
+/* Common Styles for the Application */
+$link-color: black; // TODO: Change link-color to url-color
+
+@mixin links($font-size) {
+	color: $link-color;
+	font-size: $font-size;
+	letter-spacing: 1px;
+}
+
+/* Importing Bootstrap */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
