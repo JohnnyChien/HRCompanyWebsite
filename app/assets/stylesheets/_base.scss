@@ -1,7 +1,7 @@
 /* Common Styles for the Application */
-$link-color: black; // TODO: Change link-color to url-color
+$link-color: black;
 
-@mixin links($font-size) {
+@mixin url-style($font-size) {
 	color: $link-color;
 	font-size: $font-size;
 	letter-spacing: 1px;

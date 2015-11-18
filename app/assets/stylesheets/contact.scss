@@ -1,9 +1,21 @@
-// Place all the styles related to the Contact controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-// Background images for headers
-.page-header {
-	display: none;
+#contact-header {
+	// Background image for the page header
 	background-image: url("contact_banner.jpeg");
+	background-size: cover;
+  background-repeat: no-repeat;
+	height: 490px;
+}
+
+.header-title {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 400px;
+	color: white;
+  font-size: 54px;
+  font-weight: 100;
+}
+
+#addr span {
+	// Separate address into separate lines for display
+	display: block;
 }

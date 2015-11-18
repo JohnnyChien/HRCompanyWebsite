@@ -1,2 +1,35 @@
-<div class="page-header hidden">
+<%= render "header" %>
+
+<div class="container page-content">
+	<div class="row">
+		<div class="col-md-4">
+			<h4>
+			  Jakarta
+			</h4>
+			<div id="addr">
+				<span>Herengracht 477</span>
+				<span>1017 BS Jakarta, Indonesia</span>
+			</div>
+			<p id="phone">+31 20 708 2572</p>
+			<p id="email">contact@lucky.com</p>
+			<%=link_to "Get Direction", "#"%>
+		</div>
+
+		<div class="col-md-8">
+			<form>
+			  <div class="form-group">
+			    <label for="exampleInputName2">Name</label>
+			    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+			  </div>
+			  <div class="form-group">
+			    <label for="contact-email-label">Email</label>
+			    <input type="email" class="form-control" id="contact-email-input" placeholder="jane.doe@example.com">
+			  </div>
+			  <div class="form-group">
+			  	<textarea class="form-control" rows="3"></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-default">Send invitation</button>
+			</form>
+		</div>
+	</div>
 </div>
