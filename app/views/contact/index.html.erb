@@ -2,7 +2,7 @@
 
 <div class="container page-content">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-3 contact-info">
 			<h4>
 			  Jakarta
 			</h4>
@@ -15,21 +15,21 @@
 			<%=link_to "Get Direction", "#"%>
 		</div>
 
-		<div class="col-md-8">
+		<div class="col-md-9" id="contact-form">
 			<form>
-			  <div class="form-group">
-			    <label for="exampleInputName2">Name</label>
-			    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+			  <div>
+			    <input type="text" id="contact-name-input" placeholder="NAME">
 			  </div>
-			  <div class="form-group">
-			    <label for="contact-email-label">Email</label>
-			    <input type="email" class="form-control" id="contact-email-input" placeholder="jane.doe@example.com">
+			  <div>
+			    <input type="email" id="contact-email-input" placeholder="EMAIL">
 			  </div>
-			  <div class="form-group">
-			  	<textarea class="form-control" rows="3"></textarea>
+			  <div>
+			  	<textarea rows="8" placeholder="MESSAGE" id='test'></textarea>
 			  </div>
-			  <button type="submit" class="btn btn-default">Send invitation</button>
 			</form>
+			<div class="three-sided-border-container pull-right">
+				<a class="three-sided-border">Send</a>
+			</div>
 		</div>
 	</div>
 </div>

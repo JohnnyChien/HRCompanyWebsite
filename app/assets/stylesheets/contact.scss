@@ -1,3 +1,6 @@
+$button-animation-speed: 0.5s;
+$contact-send-color: #222;
+
 #contact-header {
 	// Background image for the page header
 	background-image: url("contact_banner.jpeg");
@@ -15,7 +18,83 @@
   font-weight: 100;
 }
 
+.contact-info {
+	margin-left: 145px;
+}
+
 #addr span {
 	// Separate address into separate lines for display
 	display: block;
+}
+
+#contact-form {
+	width: 50%;
+
+	textarea:focus {
+    outline: 0;
+    border-style: solid;
+	}
+
+	input:focus {
+    outline: 0;
+	}
+
+	textarea, input {
+		border-width: 1px;
+		border-style: none none solid none;
+		width: 100%;
+		margin-bottom: 20px;
+		resize: none;
+	}
+}
+
+.three-sided-border {
+	margin-top: 20px;
+	border: solid 1px black;
+	border-top: none;
+	display: inline-block;
+	width: 100%;
+	line-height: 0px;
+	text-align: center;
+
+	// TODO: padding-bottom is tightly coupled with the height
+	//       of the container to centre the text
+	padding-bottom: 15px;
+
+	// To have the border slowly disappear/appear with the container block animation.
+	-webkit-transition-property: border, color;
+	-webkit-transition-duration: $button-animation-speed;
+	-webkit-transition-timing-function: cubic-bezier(0.46, 0.13, 0.63, 0.99);
+}
+
+.three-sided-border:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  border: none;
+  cursor:pointer;
+}
+
+.three-sided-border-container {
+	// TODO: the height is very tightly couple with the padding-bottom
+	// 			 of three-sided-border to centre the text
+	height: 35px;
+	width: 100px;
+	position: relative;
+	// background-color: green;
+}
+
+.three-sided-border:before {
+  content: "";
+  background: $contact-send-color;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top $button-animation-speed cubic-bezier(0.46, 0.13, 0.63, 0.99);
+}
+
+.three-sided-border:hover:before {
+  top: 0;
 }
