@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'partnership/index'
+
   root 'about#index'
   get 'contact' => 'contact#index'
   get 'about' => 'about#index'
+  get 'partnership' => 'partnership#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

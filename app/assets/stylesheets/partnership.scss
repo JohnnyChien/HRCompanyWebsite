@@ -1,0 +1,39 @@
+$template-color: #F7F7F7;
+
+#about-header {
+	// Background image for the page header
+	background-image: url("about_banner.jpeg");
+	background-size: 100%;
+  background-repeat: no-repeat;
+	height: 300px;
+}
+
+.about-title {
+	text-align: center;
+	vertical-align: middle;
+  font-size: 24px;
+  font-weight: 100;
+  display: block;
+}
+
+#world-map {
+	background-color: $template-color;
+	background-size: cover;
+	height: 600px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.mission-imgs {
+	background-color: $template-color;
+	background-size: cover;
+	height: 200px;
+}
+
+#mission-statement-title {
+	margin-left: 60px;
+}
+
+#mission-statement-text {
+	margin-top: 20px;
+}
