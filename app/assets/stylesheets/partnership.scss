@@ -24,16 +24,16 @@ $template-color: #F7F7F7;
 	margin-bottom: 60px;
 }
 
-.mission-imgs {
-	background-color: $template-color;
-	background-size: cover;
-	height: 200px;
-}
-
 #mission-statement-title {
 	margin-left: 60px;
 }
 
 #mission-statement-text {
 	margin-top: 20px;
+}
+
+.mission-imgs {
+	background-color: $template-color;
+	background-size: cover;
+	height: 200px;
 }

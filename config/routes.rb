@@ -1,14 +1,11 @@
 Rails.application.routes.draw do
 
-  get 'services/index'
-
-  get 'partnership/index'
-
-  root 'services#index'
+  # root 'about#index'
   get 'contact' => 'contact#index'
   get 'about' => 'about#index'
   get 'partnership' => 'partnership#index'
-  get 'services' => 'services#index'
+  # get 'services' => 'services#index'
+  # root 'services#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

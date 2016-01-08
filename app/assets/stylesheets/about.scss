@@ -1,11 +1,4 @@
-$template-color: #A2ADB6;
-
-@mixin template-tile {
-	background-color: $template-color;
-	background-size: cover;
-	height: 200px;
-	margin-top: 20px;
-}
+$template-color: #615F5F;
 
 #about-header {
 	// Background image for the page header
@@ -23,12 +16,16 @@ $template-color: #A2ADB6;
   display: block;
 }
 
-#mission-statement-title {
-	margin-left: 60px;
-}
+#mission-statement {
+	h3 {
+		text-align: center;
+		vertical-align: middle;
+	}
 
-#mission-statement-text {
-	margin-top: 20px;
+	p {
+		margin-left: 300px;
+  	margin-right: 300px;
+	}
 }
 
 .section-title h4 {
@@ -37,35 +34,35 @@ $template-color: #A2ADB6;
 	line-height: 50px;
 }
 
-
 // Tiles of different countries
 .tile-title {
 	text-align: center;
 }
 
-#title-taiwan {
-	@include template-tile;
-	padding-right: 10px;
+.partner-tiles {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-#title-hongkong {
-	@include template-tile;
-}
+.partner-imgs {
+	background-color: $template-color;
+	background-size: cover;
+	height: 200px;
+	padding-left: 20px;
+	position: relative;
+	color: white;
 
-#title-singapore {
-	@include template-tile;
-	padding-right: 10px;
-}
+	h4 {
+		vertical-align: bottom;
+		position: absolute;
+		bottom: 50px;
+	}
 
-#title-malaysia {
-	@include template-tile;
-}
-
-#title-macau {
-	@include template-tile;
-	padding-right: 10px;
-}
-
-#title-japan {
-	@include template-tile;
+	p {
+		vertical-align: bottom;
+		position: absolute;
+		bottom: 0;
+		max-width:400px;
+    word-wrap:break-word;
+	}
 }
