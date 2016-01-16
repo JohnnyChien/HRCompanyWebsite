@@ -1,3 +1,39 @@
-// Place all the styles related to the Services controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+$template-color: #B2B2B2;
+
+#partnership-header {
+	// Background image for the page header
+	background-image: url("worker_back.jpeg");
+	background-size: 100%;
+  background-repeat: no-repeat;
+	height: 300px;
+}
+
+.about-title {
+	text-align: center;
+	vertical-align: middle;
+  font-size: 24px;
+  font-weight: 100;
+  display: block;
+}
+
+#world-map {
+	background-color: $template-color;
+	background-size: cover;
+	height: 600px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#mission-statement-title {
+	margin-left: 60px;
+}
+
+#mission-statement-text {
+	margin-top: 20px;
+}
+
+.mission-imgs {
+	background-color: $template-color;
+	background-size: cover;
+	height: 200px;
+}
