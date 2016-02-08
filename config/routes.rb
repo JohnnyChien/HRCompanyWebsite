@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'contact' => 'contact#index'
   get 'about' => 'about#index'
   get 'partnership' => 'partnership#index'
-  # get 'services' => 'services#index'
+  get 'services' => 'services#index'
   # root 'services#index'
 
 
