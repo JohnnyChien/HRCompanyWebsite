@@ -5,14 +5,8 @@ $footer-color: #f5f5f5;
 $footer-font-size: 9px;
 $navbar-font-size: 11px;
 
-@font-face {
-    font-family: 'akqa';
-    src:url('fonts/akqa-2014.woff') format('woff'),
-        url('fonts/benton-sans-book.woff') format('woff'),
-        url('fonts/benton-sans-light.woff') format('woff'),
-        url('fonts/benton-sans-medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+body {
+  font-family: 'Roboto';
 }
 
 // Aligns nav bar options with the logo
