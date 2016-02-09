@@ -6,7 +6,36 @@ $footer-font-size: 9px;
 $navbar-font-size: 11px;
 
 body {
-  font-family: 'Roboto';
+  font-family: 'benton-sans-book';
+}
+
+@font-face {
+  font-family: 'benton-sans-book';
+  src:url('fonts/benton-sans-book.eot');
+  src:url('fonts/benton-sans-book.eot?#iefix') format('embedded-opentype'),
+    url('fonts/benton-sans-book.svg#benton-sans-book') format('svg'),
+    url('fonts/benton-sans-book.woff') format('woff'),
+    url('fonts/benton-sans-book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'benton-sans-medium';
+  src:url('fonts/benton-sans-medium.eot');
+  src:url('fonts/benton-sans-medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/benton-sans-medium.svg#benton-sans-medium') format('svg'),
+    url('fonts/benton-sans-medium.woff') format('woff'),
+    url('fonts/benton-sans-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'benton-sans-light';
+  src:url('fonts/benton-sans-light.woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 // Aligns nav bar options with the logo
