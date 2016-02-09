@@ -6,7 +6,7 @@ $footer-font-size: 9px;
 $navbar-font-size: 11px;
 
 body {
-  font-family: 'benton-sans-book';
+  font-family: 'Roboto';
 }
 
 @font-face {
@@ -34,6 +34,7 @@ body {
 @font-face {
   font-family: 'benton-sans-light';
   src:url('fonts/benton-sans-light.woff');
+  src:url('fonts/benton-sans-light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
