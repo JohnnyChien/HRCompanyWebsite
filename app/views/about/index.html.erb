@@ -1,40 +1,53 @@
 <%= render "header" %>
 <div class="page-content">
-	<div class="section-title">
-		<h4>What we do</h4>
-	</div>
 	<div class="container">
+			<h5 class="section-title">What we do</h5>
 		<div class="row">
-			<div class="col-md-4">
-				<h5 class="tile-title">Employee Training</h5>
+			<div class="col-md-4 what-we-do-block">
+				<%= image_tag("1_training.png", class: "what-we-do-title-img") %>
+				<h5 class="what-we-do-title">Employee Training</h5>
 				<span>
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
 				</span>
 			</div>
-			<div class="col-md-4">
-				<h5 class="tile-title">Employee Preparation</h5>
+			<div class="col-md-4 what-we-do-block">
+				<%= image_tag("2_prep.png", class: "what-we-do-title-img") %>
+				<h5 class="what-we-do-title">Employee Preparation</h5>
 				<span>
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+					</span>
 			</div>
-			<div class="col-md-4">
-				<h5 class="tile-title">After Care</h5>
+			<div class="col-md-4 what-we-do-block">
+				<%= image_tag("3_afterservice.png", class: "what-we-do-title-img") %>
+				<h5 class="what-we-do-title">After Care</h5>
 				<span>
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
 				</span>
 			</div>
 		</div>
 
+		<div id="company-statement">
+			<div class="company-statement-content">
+				<p>
+					Lucky Country is an ideas and innovation company. We exist to create the future with our clients.
+				</p>
+				<div class="three-sided-border-container">
+					<a class="three-sided-border">View Services</a>
+				</div>
+			</div>
+		</div>
+
 		<div class="row partner-tiles">
-			<div class="col-md-4" id="title-taiwan">
-				<div class="partner-imgs">
+			<div class="col-md-8" id="tile-taiwan">
+				<div class="partner-img-block">
 					<h4>Taiwan</h4>
 					<p>
 						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 					</p>
 				</div>
 			</div>
-			<div class="col-md-8" id="title-hongkong">
-				<div class="partner-imgs">
+			<div class="col-md-4" id="tile-hongkong">
+				<div class="partner-img-block">
 					<h4>Hong Kong</h4>
 					<p>
 						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
@@ -44,16 +57,16 @@
 		</div>
 
 		<div class="row partner-tiles">
-			<div class="col-md-8" id="title-singapore">
-				<div class="partner-imgs">
+			<div class="col-md-4" id="tile-singapore">
+				<div class="partner-img-block">
 					<h4>Singapore</h4>
 					<p>
 						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 					</p>
 				</div>
 			</div>
-			<div class="col-md-4" id="title-malaysia">
-				<div class="partner-imgs">
+			<div class="col-md-8" id="tile-malaysia">
+				<div class="partner-img-block">
 					<h4>Malaysia</h4>
 					<p>
 						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
@@ -63,16 +76,16 @@
 		</div>
 
 		<div class="row partner-tiles">
-			<div class="col-md-4" id="title-japan">
-			  <div class="partner-imgs">
+			<div class="col-md-8" id="tile-japan">
+			  <div class="partner-img-block">
 					<h4>Japan</h4>
 					<p>
 						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 					</p>
 				</div>
 			</div>
-			<div class="col-md-8" id="title-macau">
-			  <div class="partner-imgs">
+			<div class="col-md-4" id="tile-macau">
+			  <div class="partner-img-block">
 					<h4>Macau</h4>
 					<p>
 						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
@@ -80,12 +93,5 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	
-	<div id="mission-statement">
-		<h3>Our Mission</h3>
-		<p>
-			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-		</p>
 	</div>
 </div>
