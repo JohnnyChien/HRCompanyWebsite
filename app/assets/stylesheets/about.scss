@@ -20,8 +20,10 @@ $light-grey: #575757;
 
 // This should be a h5 style.
 h5.section-title {
-  font-size: 16px;
+  font-weight: lighter;
+  font-size: 24px;
   color: $grey;
+  text-align: center;
 }
 
 .what-we-do-block {
