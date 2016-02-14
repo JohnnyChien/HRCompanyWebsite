@@ -1,39 +1,129 @@
 $template-color: #B2B2B2;
+$service-detail-border: #bfbfbf;
+$main-color: #444444;
+$service-hover-color: #ffffff;
 
 #partnership-header {
 	// Background image for the page header
 	background-image: url("worker_back.jpeg");
 	background-size: 100%;
   background-repeat: no-repeat;
-	height: 300px;
+	height: 408px;
+  color: white;
+
+// Override the Bootstrap default for this page
+  .navbar-nav li a {
+    color: white;
+  }
 }
 
-// .about-title {
-// 	text-align: center;
-// 	vertical-align: middle;
-//   font-size: 24px;
-//   font-weight: 100;
-//   display: block;
-// }
-
-#world-map {
-	background-color: $template-color;
-	background-size: cover;
-	height: 600px;
-	margin-top: 60px;
-	margin-bottom: 60px;
+#service-page-content {
+  // Different from other pages because of the padding-top
+  // of service details 
+  margin-top: 20px;
 }
 
-#mission-statement-title {
-	margin-left: 60px;
+.service-detail {
+
+  border-bottom-color: $service-detail-border;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 20px 20px 25px 20px;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+
+  &:hover {
+    background-color: $main-color;
+    border: none;
+    color: $service-hover-color;
+
+    h5.service-title, p.service-description {
+      color: $service-hover-color;
+    }
+  }
+
+  h5.service-title {
+    font-size: 16px;
+    color: $main-color;
+  }
+
+  p.service-description {
+    font-size: 16px;
+    font-weight: 300;
+    color: $main-color;
+  }
 }
 
-#mission-statement-text {
-	margin-top: 20px;
+#services-row-two {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
-.mission-imgs {
-	background-color: $template-color;
-	background-size: cover;
-	height: 200px;
+.recruit-titles {
+  h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: $main-color;
+  }
+
+  h6 {
+    text-align: center;
+    margin-right: 60px;
+    font-weight: 500;
+    color: $main-color;
+    text-transform: uppercase;
+  }
+}
+
+.rounded-number {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid $main-color;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.recruit-instructions {
+  
+  .instruction-detail {
+    margin-top: 25px;
+
+    .instruction {
+      margin-left: 16px;
+      font-weight: 300;
+      color: $main-color;
+    }
+  }
+}
+
+#become-our-partner {
+  margin-top: 80px;
+  margin-bottom: 50px;
+
+  h1 {
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: $main-color;
+    font-size: 40px;
+  }
+
+  p {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: 300;
+    font-size: 16px;
+    color: $main-color;
+    line-height: 21px;
+  }
+
+  .three-sided-border-container {
+    left: 40%;
+    width: 250px;
+  }
 }
