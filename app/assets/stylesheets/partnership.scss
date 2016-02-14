@@ -13,13 +13,6 @@ $template-color: #B2B2B2;
 	margin-bottom: 25px;
 }
 
-#world-map {
-	background-image: url("map.png");
-	height: 740px;
-	margin-top: 60px;
-	margin-bottom: 60px;
-}
-
 #mission-statement-title {
 	margin-left: 60px;
 }
@@ -32,4 +25,68 @@ $template-color: #B2B2B2;
 	background-color: $template-color;
 	background-size: cover;
 	height: 200px;
+}
+
+#hiring-process .recruit-instructions {
+	// display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // height: 200px;
+}
+
+.partner-tiles {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+#tile-taiwan .partner-img-block {
+  background-image: url("taiwan.png");
+}
+
+#tile-hongkong .partner-img-block {
+  background-image: url("hongkong.png");
+}
+
+#tile-singapore .partner-img-block {
+  background-image: url("singapore.png");
+}
+
+#tile-malaysia .partner-img-block {
+  background-image: url("malaysia.png");
+}
+
+#tile-japan .partner-img-block {
+  background-image: url("japan.png");
+}
+
+#tile-macau .partner-img-block {
+  background-image: url("macau.png");
+}
+
+.partner-img-block {
+  background-size: 100% 100%;
+  height: 302px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  color: white;
+
+	h4 {
+		position: absolute;
+		bottom: 55px;
+    font-size: 32px;
+    font-weight: lighter;
+	}
+
+	p {
+		position: absolute;
+		bottom: 5px;
+		max-width:320px;
+    word-wrap:break-word;
+
+    font-size: 16px;
+    font-weight: lighter;
+    display: block;
+	}
 }
