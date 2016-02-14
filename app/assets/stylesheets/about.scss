@@ -8,24 +8,20 @@ $light-grey: #575757;
 	background-size: 100% 408px;
   background-repeat: no-repeat;
 	height: 408px;
-  position: relative;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
 }
 
 .about-title {
-	// text-align: center;
-	// vertical-align: middle;
-  position: absolute;
-  left: 38%;
-  top: 45%;
-  font-size: 24px;
   font-weight: 100;
-  max-width:325px;
+  max-width: 600px;
   word-wrap:break-word;
-
-  // To indent the second line of the title
-  text-indent: -1em;
-  // To move the indented text into the block of element.(see inspect element)
-  padding-left: 1em;
+  text-align: center;
 }
 
 // This should be a h5 style.
