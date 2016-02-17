@@ -31,6 +31,9 @@ gem 'bcrypt', '~> 3.1.7'
 # Font awesome
 gem 'font-awesome-sass', '~> 4.4.0'
 
+gem 'animate-scss'
+gem "animate-rails"
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 

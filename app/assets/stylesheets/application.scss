@@ -40,8 +40,15 @@ $navbar-font-size: 11px;
 	}
 }
 
-.hidden {
-	display: none;
+// .hidden {
+// 	display: none;
+// }
+
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
 }
 
 /* Fonts */
@@ -49,6 +56,45 @@ body {
   // Need to override all Bootstrap
   font-family: 'Roboto';
 }
+
+/*
+ * Keyframes
+ */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 
 @font-face {
   font-family: 'benton-sans-book';
