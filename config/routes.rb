@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'partnership#index'
+  root 'about#index'
   get 'contact' => 'contact#index'
   get 'about' => 'about#index'
   get 'partnership' => 'partnership#index'

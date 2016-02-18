@@ -1,9 +1,14 @@
+<!-- This is a hack to restart wow.js animation. Need page specific js -->
+<%= javascript_tag do %>
+  new ScrollTransition().init();
+<% end %>
+
 <%= render "header" %>
-<div class="page-content" id="service-page-content">
+<div class="page-content transition fadeIn" data-transition-duration="2s"  id="service-page-content">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="service-detail">
+				<div class="service-detail transition fadeIn" data-transition-duration="1s" data-transition-delay="0">
 					<h5 class="service-title">Housekeepers</h5>
 					<p class="service-description">
 						We're seeking a resourceful, inspired, and innovative UX Stragist skilled in the art of creating frictionless experiences.
@@ -11,7 +16,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="service-detail">
+				<div class="service-detail transition fadeIn" data-transition-duration="1s" data-transition-delay="0.2s">
 					<h5 class="service-title">Housekeepers</h5>
 					<p class="service-description">
 						We're seeking a resourceful, inspired, and innovative UX Stragist skilled in the art of creating frictionless experiences.
@@ -19,7 +24,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="service-detail">
+				<div class="service-detail transition fadeIn" data-transition-duration="1s" data-transition-delay="0.4s">
 					<h5 class="service-title">Housekeepers</h5>
 					<p class="service-description">
 						We're seeking a resourceful, inspired, and innovative UX Stragist skilled in the art of creating frictionless experiences.
@@ -29,7 +34,7 @@
 		</div>
 		<div class="row" id="services-row-two">
 			<div class="col-md-4">
-				<div class="service-detail">
+				<div class="service-detail transition fadeIn" data-transition-duration="1s" data-transition-delay="0.6s">
 					<h5 class="service-title">Housekeepers</h5>
 					<p class="service-description">
 						We're seeking a resourceful, inspired, and innovative UX Stragist skilled in the art of creating frictionless experiences.
@@ -37,7 +42,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="service-detail">
+				<div class="service-detail transition fadeIn" data-transition-duration="1s" data-transition-delay="0.8s">
 					<h5 class="service-title">Housekeepers</h5>
 					<p class="service-description">
 						We're seeking a resourceful, inspired, and innovative UX Stragist skilled in the art of creating frictionless experiences.
@@ -45,7 +50,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="service-detail">
+				<div class="service-detail transition fadeIn" data-transition-duration="1s" data-transition-delay="1s">
 					<h5 class="service-title">Housekeepers</h5>
 					<p class="service-description">
 						We're seeking a resourceful, inspired, and innovative UX Stragist skilled in the art of creating frictionless experiences.
@@ -55,34 +60,40 @@
 		</div>
 		<div class="row">
 			<div class="col-md-4">
-				<div class="recruit-titles">
+				<div class="recruit-titles transition fadeIn" data-transition-offset="10">
 					<h2>Join our team</h2>
 					<h6>LEARN HOW TO</h6>
 				</div>
 			</div>
 			<div class="col-md-8">
 				<div class="recruit-instructions">
-					<div class="instruction-detail">
+					<div class="instruction-detail transition fadeIn"
+						data-transition-duration="0.5s" data-transition-delay="0.1s" data-transition-offset="10">
 						<span class="rounded-number">1</span>
 						<span class="instruction">Submit personal information</span>
 					</div>
-					<div class="instruction-detail">
+					<div class="instruction-detail transition fadeIn"
+						data-transition-duration="0.5s" data-transition-delay="0.2s" data-transition-offset="10">
 						<span class="rounded-number">2</span>
 						<span class="instruction">Health check</span>
 					</div>
-					<div class="instruction-detail">
+					<div class="instruction-detail transition fadeIn"
+						data-transition-duration="0.5s" data-transition-delay="0.3s" data-transition-offset="10">
 						<span class="rounded-number">3</span>
 						<span class="instruction">Online and on-site screening from potential employers</span>
 					</div>
-					<div class="instruction-detail">
+					<div class="instruction-detail transition fadeIn"
+						data-transition-duration="0.5s" data-transition-delay="0.4s" data-transition-offset="10">
 						<span class="rounded-number">4</span>
 						<span class="instruction">Verify provided information</span>
 					</div>
-					<div class="instruction-detail">
+					<div class="instruction-detail transition fadeIn"
+						data-transition-duration="0.5s" data-transition-delay="0.5s" data-transition-offset="10">
 						<span class="rounded-number">5</span>
 						<span class="instruction">Skill sets and language test</span>
 					</div>
-					<div class="instruction-detail">
+					<div class="instruction-detail transition fadeIn"
+						data-transition-duration="0.5s" data-transition-delay="0.6s" data-transition-offset="10">
 						<span class="rounded-number">6</span>
 						<span class="instruction">Submit personal information</span>
 					</div>
@@ -91,7 +102,8 @@
 		</div>
 		</div>
 	</div>
-	<div id="become-our-partner">
+	<div id="become-our-partner" class="instruction-detail transition fadeIn"
+		data-transition-offset="50" data-transition-delay="0.5s">
 		<h1>Become our partner today</h1>
 		<p>
 			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto

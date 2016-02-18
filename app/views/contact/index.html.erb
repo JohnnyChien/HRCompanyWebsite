@@ -1,8 +1,13 @@
-<%= render "header" %>
+<!-- This is a hack to restart wow.js animation. Need page specific js -->
+<%= javascript_tag do %>
+  new ScrollTransition().init();
+<% end %>
 
+<%= render "header" %>
 <div class="container page-content">
 	<div class="row">
-		<div class="col-md-3 contact-info">
+		<div class="col-md-3 contact-info transition fadeIn" data-transition-duration="0.5s"
+			data-transition-delay="1s">
 			<h4>
 			  Jakarta
 			</h4>
@@ -15,7 +20,8 @@
 			<%=link_to "Get Direction", "#"%>
 		</div>
 
-		<div class="col-md-9" id="contact-form">
+		<div class="col-md-9 transition fadeIn" data-transition-duration="0.5s"
+			data-transition-delay="1.5s" id="contact-form">
 			<form>
 			  <div>
 			    <input type="text" id="contact-name-input" placeholder="NAME">

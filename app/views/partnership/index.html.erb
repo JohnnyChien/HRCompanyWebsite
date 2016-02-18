@@ -1,3 +1,8 @@
+<!-- This is a hack to restart wow.js animation. Need page specific js -->
+<%= javascript_tag do %>
+  new ScrollTransition().init();
+<% end %>
+
 <%= render "header" %>
 <div class="page-content">
 	<div class="container">
@@ -75,36 +80,41 @@
 		<h4 class="small-title">
 			Process of getting workers
 		</h4>
-		<div class="recruit-instructions">
-			<div class="instructions-tabs">
-				<a>Direct Employers</a>
-				<a>HR Agencies</a>
+		<div class="row">
+			
+			<div class="recruit-instructions col-md-7 col-md-offset-5">
+				<div class="instructions-tabs">
+					<a>Direct Employers</a>
+					<a>HR Agencies</a>
+				</div>
+				<div class="instruction-detail">
+					<span class="rounded-number">1</span>
+					<span class="instruction">Submit personal information</span>
+				</div>
+				<div class="instruction-detail">
+					<span class="rounded-number">2</span>
+					<span class="instruction">Health check</span>
+				</div>
+				<div class="instruction-detail">
+					<span class="rounded-number">3</span>
+					<span class="instruction">Online and on-site screening from potential employers</span>
+				</div>
+				<div class="instruction-detail">
+					<span class="rounded-number">4</span>
+					<span class="instruction">Verify provided information</span>
+				</div>
+				<div class="instruction-detail">
+					<span class="rounded-number">5</span>
+					<span class="instruction">Skill sets and language test</span>
+				</div>
+				<div class="instruction-detail">
+					<span class="rounded-number">6</span>
+					<span class="instruction">Submit personal information</span>
+				</div>
 			</div>
-			<div class="instruction-detail">
-				<span class="rounded-number">1</span>
-				<span class="instruction">Submit personal information</span>
-			</div>
-			<div class="instruction-detail">
-				<span class="rounded-number">2</span>
-				<span class="instruction">Health check</span>
-			</div>
-			<div class="instruction-detail">
-				<span class="rounded-number">3</span>
-				<span class="instruction">Online and on-site screening from potential employers</span>
-			</div>
-			<div class="instruction-detail">
-				<span class="rounded-number">4</span>
-				<span class="instruction">Verify provided information</span>
-			</div>
-			<div class="instruction-detail">
-				<span class="rounded-number">5</span>
-				<span class="instruction">Skill sets and language test</span>
-			</div>
-			<div class="instruction-detail">
-				<span class="rounded-number">6</span>
-				<span class="instruction">Submit personal information</span>
-			</div>
+
 		</div>
+	
 	</div>
 	<h4 class="small-title">
 		Establish partnership
