@@ -4,13 +4,13 @@
 <% end %>
 
 <%= render "header" %>
-<div class="page-content">
+<div class="page-content" transition zoomIn" data-transition-duration="0.5s">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 transition fadeIn" data-transition-delay="2s">
 				<h3 id="mission-statement-title">Our Mission</h3>
 			</div>
-			<div class="col-md-9" id="mission-statement-text">
+			<div class="col-md-9 transition lightSpeedIn" data-transition-delay="1s" id="mission-statement-text">
 				<span>
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 				</span>
@@ -19,7 +19,7 @@
 	</div>
 	<div class="container">
 		<div class="row partner-tiles">
-			<div class="col-md-8" id="tile-taiwan">
+			<div class="col-md-8 transition rotateInDownRight" data-transition-delay="1.5s" id="tile-taiwan">
 				<div class="partner-img-block">
 					<h4>Taiwan</h4>
 					<p>
@@ -27,7 +27,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-md-4" id="tile-hongkong">
+			<div class="col-md-4 transition rotateInDownLeft" data-transition-delay="1.5s" id="tile-hongkong">
 				<div class="partner-img-block">
 					<h4>Hong Kong</h4>
 					<p>
@@ -38,7 +38,7 @@
 		</div>
 
 		<div class="row partner-tiles">
-			<div class="col-md-4" id="tile-singapore">
+			<div class="col-md-4 transition fadeInUp" id="tile-singapore">
 				<div class="partner-img-block">
 					<h4>Singapore</h4>
 					<p>
@@ -46,7 +46,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-md-8" id="tile-malaysia">
+			<div class="col-md-8 transition fadeInDown" id="tile-malaysia">
 				<div class="partner-img-block">
 					<h4>Malaysia</h4>
 					<p>
@@ -57,7 +57,7 @@
 		</div>
 
 		<div class="row partner-tiles">
-			<div class="col-md-8" id="tile-japan">
+			<div class="col-md-8 transition zoomInLeft" data-transition-duration="2s" data-transition-offset="100" id="tile-japan">
 			  <div class="partner-img-block">
 					<h4>Japan</h4>
 					<p>
@@ -65,7 +65,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-md-4" id="tile-macau">
+			<div class="col-md-4 transition zoomInRight" data-transition-duration="1s" data-transition-offset="50" id="tile-macau">
 			  <div class="partner-img-block">
 					<h4>Macau</h4>
 					<p>
@@ -77,37 +77,37 @@
 	</div>
 
 	<div id="hiring-process">
-		<h4 class="small-title">
+		<h4 class="small-title transition flip" data-transition-delay="0s">
 			Process of getting workers
 		</h4>
 		<div class="row">
 			
 			<div class="recruit-instructions col-md-7 col-md-offset-5">
-				<div class="instructions-tabs">
+				<div class="instructions-tabs transition wobble" data-transition-delay="0s">
 					<a>Direct Employers</a>
 					<a>HR Agencies</a>
 				</div>
-				<div class="instruction-detail">
+				<div class="instruction-detail transition wobble" data-transition-delay="0.1s">
 					<span class="rounded-number">1</span>
 					<span class="instruction">Submit personal information</span>
 				</div>
-				<div class="instruction-detail">
+				<div class="instruction-detail transition wobble" data-transition-delay="0.2s">
 					<span class="rounded-number">2</span>
 					<span class="instruction">Health check</span>
 				</div>
-				<div class="instruction-detail">
+				<div class="instruction-detail transition wobble" data-transition-delay="0.3s">
 					<span class="rounded-number">3</span>
 					<span class="instruction">Online and on-site screening from potential employers</span>
 				</div>
-				<div class="instruction-detail">
+				<div class="instruction-detail transition wobble" data-transition-delay="0.4s">
 					<span class="rounded-number">4</span>
 					<span class="instruction">Verify provided information</span>
 				</div>
-				<div class="instruction-detail">
+				<div class="instruction-detail transition wobble" data-transition-delay="0.5s">
 					<span class="rounded-number">5</span>
 					<span class="instruction">Skill sets and language test</span>
 				</div>
-				<div class="instruction-detail">
+				<div class="instruction-detail transition wobble" data-transition-delay="0.6s">
 					<span class="rounded-number">6</span>
 					<span class="instruction">Submit personal information</span>
 				</div>
@@ -116,30 +116,30 @@
 		</div>
 	
 	</div>
-	<h4 class="small-title">
+	<h4 class="small-title transition lightSpeedIn" data-transition-delay="0s">
 		Establish partnership
 	</h4>
 	<div class="container">
 		<div class="row">
 		</div>
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 transition zoomInLeft" data-transition-delay="0.3s">
 				<span>
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
 				</span>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 transition zoomInUp" data-transition-delay="0.6s">
 				<span>
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 transition zoomInRight" data-transition-delay="0.9s">
 				<span>
 					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
 				</span>
 			</div>
 		</div>
 	</div>
-	<div id="become-our-partner">
+	<div id="become-our-partner" class="transition jello" data-transition-offset="50" data-transition-delay="1.2s">
 		<h1>Become our partner today</h1>
 		<p>
 			Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
