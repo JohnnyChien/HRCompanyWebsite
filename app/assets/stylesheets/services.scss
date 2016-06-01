@@ -44,14 +44,17 @@ $service-hover-color: #ffffff;
   }
 
   h5.service-title {
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
     color: $main-color;
   }
 
   p.service-description {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     color: $main-color;
+    margin-top:18px;
   }
 }
 
