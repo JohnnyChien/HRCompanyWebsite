@@ -1,90 +1,111 @@
 $template-color: #B2B2B2;
+$contact-send-color: #222;
+$partnership-detail: #282828;
 
 #partnership-header {
-	// Background image for the page header
-	background-image: url("worker_back.jpeg");
-	background-size: 100%;
+  // Background image for the page header
+  background-image: url("worker_back.jpeg");
+  background-size: 100%;
   background-repeat: no-repeat;
-	height: 300px;
+  height: 408px;
+  color: white;
+
+// Override the Bootstrap default for this page
+  .navbar-nav li a {
+    color: white;
+  }
 }
 
-.small-title {
-	text-align: center;
-	margin-bottom: 25px;
+#partnership-container {
+  width: 100%;
 }
 
-#mission-statement-title {
-	margin-left: 60px;
+#establish-partnership {
+  background-color: $partnership-detail;
+  height: 600px;
+  width: 100%;
 }
 
-#mission-statement-text {
-	margin-top: 20px;
+#establish-partnership-img {
+  background-image: url("japan.png");
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
-.mission-imgs {
-	background-color: $template-color;
-	background-size: cover;
-	height: 200px;
+#partnership-description {
+  color: white;
+  padding-left: 180px;
+
+  h2, h4, p {
+    font-weight: lighter;
+    display:block;
+    width:300px;
+    word-wrap:break-word;
+  }
+
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .partner-detail {
+    .title {
+      margin-bottom: 20px;
+    }
+
+    .detail {
+      margin-bottom: 50px;
+    }
+  }
 }
 
-#hiring-process .recruit-instructions {
-  margin-top: 30px;
+.hiring-steps-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span.hiring-steps-tab {
+    padding-bottom: 5px;
+  }
+
+  span:hover.hiring-steps-tab {
+    border-bottom: solid 1px black;
+    padding-bottom: 4px;
+    display: inline;
+  }
+}
+
+.hiring-steps-tab {
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+#step-blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   margin-bottom: 60px;
 }
 
-.partner-tiles {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
+.step-description {
+  margin-top: 30px;
 
+  h4 {
+    margin-left: 50px;
+    display: inline-block;
+    font-weight: bolder;
+  }
 
-#tile-taiwan .partner-img-block {
-  background-image: url("taiwan.png");
-}
+  .step-title {
+    margin-left: 60px;
+  }
 
-#tile-hongkong .partner-img-block {
-  background-image: url("hongkong.png");
-}
-
-#tile-singapore .partner-img-block {
-  background-image: url("singapore.png");
-}
-
-#tile-malaysia .partner-img-block {
-  background-image: url("malaysia.png");
-}
-
-#tile-japan .partner-img-block {
-  background-image: url("japan.png");
-}
-
-#tile-macau .partner-img-block {
-  background-image: url("macau.png");
-}
-
-.partner-img-block {
-  background-size: 100% 100%;
-  height: 302px;
-  padding-left: 20px;
-  padding-right: 20px;
-  position: relative;
-  color: white;
-
-	h4 {
-		position: absolute;
-		bottom: 55px;
-    font-size: 32px;
-    font-weight: lighter;
-	}
-
-	p {
-		position: absolute;
-		bottom: 5px;
-		max-width:320px;
-    word-wrap:break-word;
-
-    font-size: 16px;
-    font-weight: lighter;
-    display: block;
-	}
+  .step-detail {
+    padding-left: 50px;
+    margin-left: 115px;
+    color: grey;
+    word-wrap: break-word;
+    width: 400px;
+  }
 }

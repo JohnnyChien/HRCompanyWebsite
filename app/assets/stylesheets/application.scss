@@ -44,17 +44,37 @@ $navbar-font-size: 11px;
 // 	display: none;
 // }
 
-.hidden{
-     opacity:0;
+.hidden {
+  opacity:0;
 }
-.visible{
-     opacity:1;
+
+.visible {
+  opacity:1;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.no-side-margin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.no-side-padding {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 /* Fonts */
 body {
   // Need to override all Bootstrap
   font-family: 'Roboto';
+  // font-family: 'Poppins', sans-serif;
 }
 
 /*
