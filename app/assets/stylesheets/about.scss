@@ -1,5 +1,5 @@
 $template-color: #615F5F;
-$grey: #444444;
+$main-color: #444444;
 $light-grey: #575757;
 
 #about-header {
@@ -10,25 +10,11 @@ $light-grey: #575757;
 	height: 600px;
 }
 
-.page-title-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 200px;
-}
-
-.page-title {
-  font-weight: 100;
-  max-width: 600px;
-  word-wrap:break-word;
-  text-align: center;
-}
-
 // This should be a h5 style.
 h5.section-title {
   font-weight: lighter;
   font-size: 32px;
-  color: $grey;
+  color: $main-color;
   text-align: center;
 }
 
@@ -36,7 +22,7 @@ h5.section-title {
   h5 {
     font-weight: lighter;
     font-size: 24px;
-    color: $grey;
+    color: $main-color;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -59,10 +45,9 @@ h5.section-title {
 }
 
 #company-statement {
-  // margin-top: 80px;
   height: 456px;
   display: flex;
-    align-items: center;
+  align-items: center;
   
   .company-statement-content {
 
@@ -71,7 +56,7 @@ h5.section-title {
       margin-right: 120px;
       font-weight: lighter;
       font-size: 40px;
-      color: $grey;
+      color: $main-color;
       text-align: center;
     }
 

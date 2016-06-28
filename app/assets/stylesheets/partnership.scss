@@ -1,6 +1,7 @@
 $template-color: #B2B2B2;
 $contact-send-color: #222;
 $partnership-detail: #282828;
+$white-nav-hover-color: #dddddd;
 
 #partnership-header {
   // Background image for the page header
@@ -12,8 +13,12 @@ $partnership-detail: #282828;
   color: white;
 
 // Override the Bootstrap default for this page
-  .navbar-nav li a {
+  .navbar-static-top li a {
     color: white;
+  }
+
+  .navbar-static-top li a:hover {
+    color: $white-nav-hover-color;
   }
 }
 
@@ -29,7 +34,7 @@ $partnership-detail: #282828;
 
 #establish-partnership-img {
   background-image: url("class-is-fun.jpg");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 100%;
 }

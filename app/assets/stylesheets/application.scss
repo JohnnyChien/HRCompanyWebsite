@@ -4,11 +4,43 @@ $footer-height: 45px;
 $footer-color: #f5f5f5;
 $footer-font-size: 9px;
 $navbar-font-size: 11px;
+$float-nav-color: rgba(255, 255, 255, 0.97);
+$nav-default-color: #333;
+$nav-hover-color: #666;
+
+.page-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.page-title {
+  font-weight: 100;
+  max-width: 600px;
+  word-wrap:break-word;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+// Override Bootstrap navbar hover state
+ul.nav a:hover {
+  background-color: transparent;
+}
 
 // Aligns nav bar options with the logo
 .navbar-nav li a {
 	@include url-style($navbar-font-size);
   line-height: 40px;
+  color: $nav-default-color;
+}
+
+.navbar-nav li a:hover {
+  color:  $nav-hover-color;
+}
+
+.floating-nav {
+  background-color: $float-nav-color;
 }
 
 .page-content {
@@ -77,6 +109,11 @@ $navbar-font-size: 11px;
 .no-side-padding {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+// Overriding Bootstrap style
+h1, .h1 {
+font-size: 52px;
 }
 
 /* Fonts */

@@ -1,21 +1,27 @@
 $button-animation-speed: 0.5s;
 $contact-send-color: #222;
+$white-nav-hover-color: #dddddd;
 
 #contact-header {
 	// Background image for the page header
-	background-image: url("contact_banner.jpeg");
+	background-image: url("blue-wall.jpeg");
 	background-size: cover;
   background-repeat: no-repeat;
-	height: 490px;
-}
+  background-position: 100% 30%;
+	height: 408px;
 
-#contact-title {
-	text-align: center;
-	vertical-align: middle;
-	line-height: 400px;
-	color: white;
-  font-size: 54px;
-  font-weight: 100;
+  // Override the Bootstrap default for this page
+  .navbar-static-top li a {
+    color: white;
+  }
+
+  .navbar-static-top li a:hover {
+    color: $white-nav-hover-color;
+  }
+
+  #contact-title {
+    color: white;
+  }
 }
 
 .contact-info {

@@ -2,6 +2,7 @@ $template-color: #B2B2B2;
 $service-detail-border: #bfbfbf;
 $main-color: #444444;
 $service-hover-color: #ffffff;
+$white-nav-hover-color: #dddddd;
 
 #services-header {
 	// Background image for the page header
@@ -12,8 +13,12 @@ $service-hover-color: #ffffff;
   color: white;
 
 // Override the Bootstrap default for this page
-  .navbar-nav li a {
+  .navbar-static-top li a {
     color: white;
+  }
+
+  .navbar-static-top li a:hover {
+    color: $white-nav-hover-color;
   }
 }
 
