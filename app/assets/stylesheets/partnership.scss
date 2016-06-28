@@ -4,9 +4,10 @@ $partnership-detail: #282828;
 
 #partnership-header {
   // Background image for the page header
-  background-image: url("worker_back.jpeg");
+  background-image: url("ny-rooftop.jpeg");
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: 100% 93%;
   height: 408px;
   color: white;
 
@@ -27,7 +28,8 @@ $partnership-detail: #282828;
 }
 
 #establish-partnership-img {
-  background-image: url("training-center.JPG");
+  background-image: url("class-is-fun.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -107,5 +109,16 @@ $partnership-detail: #282828;
     color: grey;
     word-wrap: break-word;
     width: 400px;
+  }
+}
+
+.partnering-steps-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.partnering-step {
+  h4 {
+    display: inline-block;
   }
 }
