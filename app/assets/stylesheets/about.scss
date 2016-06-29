@@ -5,9 +5,10 @@ $light-grey: #575757;
 #about-header {
 	// Background image for the page header
 	// background-image: url("factory-roof.jpeg");
-	// background-size: 100%;
-  // background-repeat: no-repeat;
+	background-size: 100%;
+  background-repeat: no-repeat;
 	height: 600px;
+  position: relative;
 }
 
 // This should be a h5 style.

@@ -18,20 +18,11 @@
 
 $(document).ready(function() {
   new ScrollTransition().init();
-  initVideoBackground();
+  initNavbarScrolling();
 });
 
 $(document).on('page:change', function() {
   new ScrollTransition().init();
-  initVideoBackground();
+  initNavbarScrolling();
 });
 
-$(document).scroll(function(e){
-    var scrollTop = $(document).scrollTop();
-    if(scrollTop > 0){
-        console.log(scrollTop);
-        $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top floating-nav');
-    } else {
-        $('.navbar').removeClass('navbar-fixed-top floating-nav').addClass('navbar-static-top');
-    }
-});
