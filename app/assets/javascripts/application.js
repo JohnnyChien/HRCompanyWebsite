@@ -16,22 +16,16 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-$(document).ready(function() {
-  new ScrollTransition().init();
-  initVideoBackground();
-});
-
-$(document).on('page:change', function() {
-  new ScrollTransition().init();
-  initVideoBackground();
-});
+new ScrollTransition().init();
 
 $(document).scroll(function(e){
     var scrollTop = $(document).scrollTop();
     if(scrollTop > 0){
         console.log(scrollTop);
         $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top floating-nav');
+        // $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
     } else {
         $('.navbar').removeClass('navbar-fixed-top floating-nav').addClass('navbar-static-top');
+        // $('.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
     }
 });
