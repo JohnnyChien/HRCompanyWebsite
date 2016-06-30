@@ -11,28 +11,10 @@ $light-grey: #575757;
   position: relative;
 }
 
-// This should be a h5 style.
-h5.section-title {
-  font-weight: lighter;
-  font-size: 32px;
-  color: $main-color;
-  text-align: center;
-}
-
 .what-we-do-block {
-  h5 {
-    font-weight: lighter;
-    font-size: 24px;
-    color: $main-color;
+  h4 {
     margin-top: 30px;
     margin-bottom: 30px;
-  }
-
-  span {
-    font-weight: lighter;
-    font-size: 16px;
-    color: $light-grey;
-    display: block;
   }
 
   img {
@@ -52,13 +34,9 @@ h5.section-title {
   
   .company-statement-content {
 
-    p {
-      margin-left: 120px;
-      margin-right: 120px;
-      font-weight: lighter;
-      font-size: 40px;
-      color: $main-color;
-      text-align: center;
+    h2 {
+      margin-left: 180px;
+      margin-right: 180px;
     }
 
     .three-sided-border-container {

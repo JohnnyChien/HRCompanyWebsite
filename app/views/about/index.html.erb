@@ -1,50 +1,6 @@
 <%= render "header" %>
 <div class="page-content transition fadeIn" data-transition-duration="2s" id="about-page">
-	<div class="container">
-		<h5 class="section-title">What we do</h5>
-		<div class="row">
-			<div class="col-md-4 what-we-do-block">
-				<%= image_tag("1_training.png", class: "transition fadeInUp what-we-do-title-img",
-				 		:data => {:transition_delay => '0.5s', :transition_duration => '1s'}) %>
-				<div class="transition fadeInUp" data-transition-duration="1s" data-transition-delay="0.3s">
-					<h5 class="what-we-do-title">Employee Training</h5>
-					<span>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-					</span>
-				</div>
-			</div>
-			<div class="col-md-4 what-we-do-block">
-				<%= image_tag("2_prep.png", class: "transition fadeInUp what-we-do-title-img",
-						:data => {:transition_delay => '0.7s', :transition_duration => '1s'}) %>
-				<div class="transition fadeInUp" data-transition-duration="1s" data-transition-delay="0.5s">
-					<h5 class="what-we-do-title">Employee Preparation</h5>
-					<span>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-					</span>
-				</div>
-			</div>
-			<div class="col-md-4 what-we-do-block">
-				<%= image_tag("3_afterservice.png", class: "transition fadeInUp what-we-do-title-img",
-						:data => {:transition_delay => '0.9s', :transition_duration => '1s'}) %>
-				<div class="transition fadeInUp" data-transition-duration="1s" data-transition-delay="0.7s">
-					<h5 class="what-we-do-title">After Care</h5>
-					<span>
-						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-					</span>
-				</div>
-			</div>
-		</div>
-		<div id="company-statement" class="">
-			<div class="company-statement-content transition fadeIn" data-transition-duration="2s" data-transition-delay="0s" data-transition-offset="100">
-				<p>
-					Lucky Country is an ideas and innovation company. We exist to create the future with our clients.
-				</p>
-				<div class="three-sided-border-container">
-					<a class="three-sided-border">View Services</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="world-map" class="transition fadeIn"  data-transition-duration="2s" data-transition-offset="100">
-	</div>
+	<%= render "what_we_do" %>
+	<%= render "company_statement" %>
+	<%= render "map" %>
 </div>

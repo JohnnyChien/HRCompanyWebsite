@@ -16,11 +16,8 @@ $nav-hover-color: #666;
 }
 
 .page-title {
-  font-weight: 100;
   max-width: 600px;
   word-wrap:break-word;
-  text-align: center;
-  letter-spacing: 2px;
 }
 
 // Override Bootstrap navbar hover state
@@ -111,18 +108,6 @@ ul.nav a:hover {
   padding-right: 0px;
 }
 
-// Overriding Bootstrap style
-h1, .h1 {
-font-size: 52px;
-}
-
-/* Fonts */
-body {
-  // Need to override all Bootstrap
-  font-family: 'Roboto';
-  // font-family: 'Poppins', sans-serif;
-}
-
 /*
  * Keyframes
  */
@@ -159,35 +144,4 @@ body {
     opacity: 1;
     transform: none;
   }
-}
-
-
-@font-face {
-  font-family: 'benton-sans-book';
-  src:url('fonts/benton-sans-book.eot');
-  src:url('fonts/benton-sans-book.eot?#iefix') format('embedded-opentype'),
-    url('fonts/benton-sans-book.svg#benton-sans-book') format('svg'),
-    url('fonts/benton-sans-book.woff') format('woff'),
-    url('fonts/benton-sans-book.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'benton-sans-medium';
-  src:url('fonts/benton-sans-medium.eot');
-  src:url('fonts/benton-sans-medium.eot?#iefix') format('embedded-opentype'),
-    url('fonts/benton-sans-medium.svg#benton-sans-medium') format('svg'),
-    url('fonts/benton-sans-medium.woff') format('woff'),
-    url('fonts/benton-sans-medium.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'benton-sans-light';
-  src:url('fonts/benton-sans-light.woff');
-  src:url('fonts/benton-sans-light.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
 }
