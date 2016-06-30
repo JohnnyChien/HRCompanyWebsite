@@ -30,6 +30,7 @@ $white-nav-hover-color: #dddddd;
 
 #addr span {
 	// Separate address into separate lines for display
+  // Not using p to avoid overriding default margin
 	display: block;
 }
 
