@@ -123,8 +123,24 @@ $white-nav-hover-color: #dddddd;
   margin-bottom: 50px;
 }
 
+.section-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.section-subtext {
+  color: #666666;
+  font-weight: 300;
+}
+
 .partnering-step {
+  margin-bottom: 30px;
+
   h4 {
     display: inline-block;
+  font-size: 18px;
+  color: #333333;
+  font-weight: 300;
+  margin-bottom: 15px;
   }
 }
