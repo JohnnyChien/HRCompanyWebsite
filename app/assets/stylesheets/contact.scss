@@ -1,5 +1,3 @@
-$button-animation-speed: 0.5s;
-$contact-send-color: #222;
 $white-nav-hover-color: #dddddd;
 
 #contact-header {
@@ -22,6 +20,11 @@ $white-nav-hover-color: #dddddd;
   #contact-title {
     color: white;
   }
+}
+
+#contact-page-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .contact-info {
@@ -53,54 +56,4 @@ $white-nav-hover-color: #dddddd;
 		margin-bottom: 20px;
 		resize: none;
 	}
-}
-
-.three-sided-border {
-	margin-top: 20px;
-	border: solid 1px black;
-	border-top: none;
-	display: inline-block;
-	width: 100%;
-	line-height: 0px;
-	text-align: center;
-
-	// TODO: padding-bottom is tightly coupled with the height
-	//       of the container to centre the text
-	padding-bottom: 15px;
-
-	// To have the border slowly disappear/appear with the container block animation.
-	-webkit-transition-property: border, color;
-	-webkit-transition-duration: $button-animation-speed;
-	-webkit-transition-timing-function: cubic-bezier(0.46, 0.13, 0.63, 0.99);
-}
-
-.three-sided-border:hover {
-  color: whitesmoke;
-  text-decoration: none;
-  border: none;
-  cursor:pointer;
-}
-
-.three-sided-border-container {
-	// TODO: the height is very tightly couple with the padding-bottom
-	// 			 of three-sided-border to centre the text
-	height: 35px;
-	width: 100px;
-	position: relative;
-}
-
-.three-sided-border:before {
-  content: "";
-  background: $contact-send-color;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 100%;
-  z-index: -1;
-  -webkit-transition: top $button-animation-speed cubic-bezier(0.46, 0.13, 0.63, 0.99);
-}
-
-.three-sided-border:hover:before {
-  top: 0;
 }
