@@ -1,14 +1,23 @@
-$template-color: #615F5F;
-$main-color: #444444;
-$light-grey: #575757;
+$white-nav-hover-color: #dddddd;
 
 #about-header {
-	// Background image for the page header
-	// background-image: url("factory-roof.jpeg");
-	background-size: 100%;
-  background-repeat: no-repeat;
 	height: 600px;
   position: relative;
+  color: white;
+
+  // Override the Bootstrap default for this page
+  .navbar-static-top li a {
+    color: white;
+  }
+
+  .navbar-static-top li a:hover {
+    color: $white-nav-hover-color;
+  }
+}
+
+#about-page-content {
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .what-we-do-block {
@@ -51,8 +60,4 @@ $light-grey: #575757;
   background-image: url("dotted-map2.png");
   background-size: 100% 100%;
   height: 529px;
-}
-
-#about-page {
-  margin-bottom: 0;
 }
