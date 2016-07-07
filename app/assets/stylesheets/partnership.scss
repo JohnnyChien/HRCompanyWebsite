@@ -1,8 +1,20 @@
 $template-color: #B2B2B2;
 $contact-send-color: #222;
-$partnership-detail: #282828;
+$establish-partnership-background: #282828;
+$establish-partnership-detail: #c2c2c2;
 $white-nav-hover-color: #dddddd;
 
+/* Partnership Page */
+#partnership-page-content {
+  margin-top: 20px;
+}
+
+#partnership-container {
+  width: 100%;
+}
+/* END */
+
+/* _header.html.erb */
 #partnership-header {
   // Background image for the page header
   background-image: url("ny-rooftop.jpeg");
@@ -11,8 +23,10 @@ $white-nav-hover-color: #dddddd;
   background-position: 100% 93%;
   height: 408px;
   color: white;
+/* END */
 
-// Override the Bootstrap default for this page
+
+/* _navbar.html.erb */
   .navbar-static-top li a {
     color: white;
   }
@@ -21,13 +35,11 @@ $white-nav-hover-color: #dddddd;
     color: $white-nav-hover-color;
   }
 }
+/* END */
 
-#partnership-container {
-  width: 100%;
-}
-
+/* _establish_partnership.html.erb */
 #establish-partnership {
-  background-color: $partnership-detail;
+  background-color: $establish-partnership-background;
   height: 600px;
   width: 100%;
 }
@@ -41,17 +53,24 @@ $white-nav-hover-color: #dddddd;
 }
 
 #partnership-description {
-  color: white;
   padding-left: 180px;
 
-  h2, h4, p {
-    font-weight: lighter;
+  h3, h5, p {
     display:block;
     width:300px;
     word-wrap:break-word;
+    
   }
 
-  h2 {
+  h3, h5 {
+    color: white;
+  }
+
+  p {
+    color: $establish-partnership-detail;
+  }
+
+  h3 {
     margin-top: 50px;
     margin-bottom: 30px;
   }
@@ -66,81 +85,32 @@ $white-nav-hover-color: #dddddd;
     }
   }
 }
+/* END */
 
-.hiring-steps-tabs {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
-  span.hiring-steps-tab {
-    padding-bottom: 5px;
-  }
-
-  span:hover.hiring-steps-tab {
-    border-bottom: solid 1px black;
-    padding-bottom: 4px;
-    display: inline;
-  }
-}
-
-.hiring-steps-tab {
-  margin-left: 50px;
-  margin-right:50px;
-}
-
-#step-blocks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 60px;
-}
-
-.step-description {
-  margin-top: 30px;
-
-  h4 {
-    margin-left: 50px;
-    display: inline-block;
-    font-weight: bolder;
-  }
-
-  .step-title {
-    margin-left: 60px;
-  }
-
-  .step-detail {
-    padding-left: 50px;
-    margin-left: 115px;
-    color: grey;
-    word-wrap: break-word;
-    width: 400px;
-  }
-}
-
+/* _hiring_steps.html.erb */
 .partnering-steps-section {
-  margin-top: 50px;
+  margin-top: 15px;
   margin-bottom: 50px;
 }
 
-// .section-title {
-//   font-size: 24px;
-//   font-weight: 300;
-// }
+.section-title {
+  text-align: left;
+  margin-bottom: 10px;
+}
 
+// TODO: Confirm with Sarah
 .section-subtext {
-  color: #666666;
-  font-weight: 300;
+  // color: #666666;
 }
 
 .partnering-step {
+  margin-top: 15px;
   margin-bottom: 30px;
 
-  h4 {
+  h5 {
     display: inline-block;
-  font-size: 18px;
-  color: #333333;
-  font-weight: 300;
-  margin-bottom: 15px;
+    margin-bottom: 15px;
   }
 }
+/* END */

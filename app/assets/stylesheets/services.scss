@@ -2,6 +2,7 @@ $service-detail-border: #bfbfbf;
 $service-hover-color: #ffffff;
 $white-nav-hover-color: #dddddd;
 $on-hover-color: #222;
+$recruitment-background: #282828;
 
 #services-header {
 	// Background image for the page header
@@ -67,7 +68,7 @@ $on-hover-color: #222;
 }
 
 #recruitment-to-deployment {
-  background-color: $partnership-detail;
+  background-color: $recruitment-background;
   height: 600px;
   width: 100%;
 }
