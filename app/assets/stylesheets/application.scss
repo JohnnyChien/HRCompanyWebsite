@@ -8,6 +8,14 @@ $float-nav-color: rgba(255, 255, 255, 0.97);
 $nav-default-color: #333;
 $nav-hover-color: #666;
 
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
 .page-title-container {
   display: flex;
   align-items: center;
