@@ -8,15 +8,6 @@ $white-nav-hover-color: #dddddd;
   background-position: 100% 30%;
 	height: 408px;
 
-  // Override the Bootstrap default for this page
-  .navbar-static-top li a {
-    color: white;
-  }
-
-  .navbar-static-top li a:hover {
-    color: $white-nav-hover-color;
-  }
-
   #contact-title {
     color: white;
   }

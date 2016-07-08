@@ -11,15 +11,6 @@ $recruitment-background: #282828;
   background-repeat: no-repeat;
 	height: 408px;
   color: white;
-
-// Override the Bootstrap default for this page
-  .navbar-static-top li a {
-    color: white;
-  }
-
-  .navbar-static-top li a:hover {
-    color: $white-nav-hover-color;
-  }
 }
 
 #service-page-content {
