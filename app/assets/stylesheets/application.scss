@@ -48,6 +48,14 @@ ul.nav a:hover {
   background-color: $float-nav-color;
 }
 
+.not-floating-navbar li a {
+  color: white;
+}
+
+.not-floating-navbar li a:hover {
+  color: $white-nav-hover-color;
+}
+
 .navbar-brand {
   text-align: center;
   line-height: 25px;
