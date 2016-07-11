@@ -7,6 +7,7 @@ $navbar-font-size: 11px;
 $float-nav-color: rgba(255, 255, 255, 0.97);
 $nav-default-color: #333;
 $nav-hover-color: #666;
+$default-text-color: #444444;
 
 
 .header {
@@ -44,10 +45,6 @@ ul.nav a:hover {
   color:  $nav-hover-color;
 }
 
-.floating-nav {
-  background-color: $float-nav-color;
-}
-
 .not-floating-navbar li a {
   color: white;
 }
@@ -65,8 +62,19 @@ ul.nav a:hover {
   margin-left: 20px;
 }
 
+span.floating-text {
+  color: $default-text-color;
+}
+
+span.not-floating-text {
+  color: white;
+}
+
+.floating-nav {
+  background-color: $float-nav-color;
+}
+
 .footer {
-  // position: absolute;
   bottom: 0;
   width: 100%;
   height: $footer-height;
