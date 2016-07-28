@@ -1,4 +1,4 @@
-(function ($) {
+var bootstrapSelect = function ($) {
   'use strict';
 
   //<editor-fold desc="Shims">
@@ -1814,4 +1814,4 @@
       Plugin.call($selectpicker, $selectpicker.data());
     })
   });
-})(jQuery);
+}

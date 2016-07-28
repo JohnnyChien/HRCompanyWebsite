@@ -19,10 +19,12 @@
 $(document).ready(function() {
   new ScrollTransition().init();
   initNavbarScrolling();
+  bootstrapSelect($);
 });
 
 $(document).on('page:change', function() {
   new ScrollTransition().init();
   initNavbarScrolling();
+  $('.selectpicker').selectpicker('render');
 });
 
