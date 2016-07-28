@@ -27,4 +27,3 @@ $(document).on('page:change', function() {
   initNavbarScrolling();
   $('.selectpicker').selectpicker('render');
 });
-

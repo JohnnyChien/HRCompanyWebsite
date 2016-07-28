@@ -16,20 +16,22 @@
 		</div>
 
 		<div class="col-md-9 transition fadeIn" data-transition-duration="0.5s"
-			data-transition-delay="1.5s" id="contact-form">
-			<form>
+			data-transition-delay="1.5s" id="contact-form-div">
+			<form id="contact-form" accept-charset="UTF-8" action="contact/email" method="post">
 			  <div>
-			    <input type="text" id="contact-name-input" placeholder="Name">
+			    <input type="text" id="contact-name" name="name" placeholder="Name">
 			  </div>
 			  <div>
-			    <input type="email" id="contact-email-input" placeholder="Email">
+			    <input type="email" id="contact-email" name="email" placeholder="Email">
 			  </div>
 			  <div>
-			  	<textarea rows="8" placeholder="Message" id='test'></textarea>
+			  	<textarea rows="8" placeholder="Message" name="message" id='contact-text'></textarea>
 			  </div>
 			</form>
 			<div class="three-sided-border-container pull-right">
-				<a class="three-sided-border">Send</a>
+				<a class="three-sided-border" id="send-mail"
+					onclick="$.post('contact/email',( $('#contact-form').serialize()));">
+				Send</a>
 			</div>
 		</div>
 	</div>
