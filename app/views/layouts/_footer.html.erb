@@ -1,19 +1,12 @@
 <footer class="footer">
 	<div class="footer-content">
-	  <div class="footer-links pull-left">
-	    <%=link_to'CONTACT', "#"%>
-	    <%=link_to "PRIVACY POLICY", "#" %>
-	  </div>
+		  <select name="post[author_id]" id="post_author_id" class="pull-left">
+			  <option class="option" value="1" selected="selected">English</option>
+			  <option class="option" value="2">Chinese</option>
+			  <option class="option" value="3">Indonesian</option>
+			</select>
 	  <div class="footer-social pull-right">
-	    <%=link_to "#" do%>
-	    	<i class="fa fa-twitter"></i>
-	    <% end %>
-	    <%=link_to "#" do%>
-	    	<i class="fa fa-facebook"></i>
-	    <% end %>
-	    <%=link_to "#" do%>
-	    	<i class="fa fa-google-plus"></i>
-	    <% end %>
+	  	<span id="copyright-text">&copy;<%= Time.now.year %> Lucky Country. All rights reserved.</span>
 	  </div>
   </div>
 </footer>

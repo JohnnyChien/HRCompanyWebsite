@@ -1,0 +1,55 @@
+$footer-height: 52px;
+$footer-background-color: #282828;
+$footer-font-size: 9px;
+$footer-text-color: #666666;
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  background-color: $footer-background-color;
+
+  .footer-content {
+    @include url-style($footer-font-size);
+    vertical-align: middle;
+    line-height: $footer-height;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    .footer-links a {
+      padding-right: 25px;
+    }
+  }
+
+  #copyright-text {
+    font-size: 12px;
+    color: $footer-text-color;
+  }
+
+  select {
+    color: $footer-text-color;
+    font-weight: bold;
+    background: transparent;
+    font-size: 12px;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
+  }
+
+  select:focus {
+    outline: none; 
+  }
+
+  select:hover {
+    cursor: pointer;
+  }
+
+  .option {
+    margin:40px;
+    background-color: black;
+    color:#fff;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+  }
+}
