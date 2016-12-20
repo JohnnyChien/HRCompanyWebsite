@@ -1,11 +1,11 @@
-development:
-  adapter: mysql2
-  encoding: utf8
-  database: simple_cms_development
-  pool: 5
-  username: simple_cms
-  password: secretpassword
-  socket: /tmp/mysql.sock
+# development:
+#   adapter: mysql2
+#   encoding: utf8
+#   database: simple_cms_development
+#   pool: 5
+#   username: simple_cms
+#   password: secretpassword
+#   socket: /tmp/mysql.sock
 
 # test:
 #   adapter: mysql
@@ -26,3 +26,10 @@ development:
 #   username: **root**
 #   password: **supersecretpassword**
 #   socket: **/opt/local/var/run/mysql5/mysqld.sock**
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
