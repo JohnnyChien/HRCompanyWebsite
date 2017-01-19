@@ -8,7 +8,7 @@ gem 'rails', '4.2.3'
 # gem 'mysql2', '~> 0.3.18'
 
 # pg is for deployment to Heroku. https://devcenter.heroku.com/articles/getting-started-with-rails4
-gem 'pg'
+# gem 'pg'
 
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.5'
