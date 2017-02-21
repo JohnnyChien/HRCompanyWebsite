@@ -1,106 +1,106 @@
-$template-color: #B2B2B2;
-$contact-send-color: #222;
-$establish-partnership-background: #282828;
-$establish-partnership-detail: #c2c2c2;
-$white-nav-hover-color: #dddddd;
+// $template-color: #B2B2B2;
+// $contact-send-color: #222;
+// $establish-partnership-background: #282828;
+// $establish-partnership-detail: #c2c2c2;
+// $white-nav-hover-color: #dddddd;
 
-/* Partnership Page */
-#partnership-page-content {
-  margin-top: 20px;
-}
+// /* Partnership Page */
+// #partnership-page-content {
+//   margin-top: 20px;
+// }
 
-#partnership-container {
-  width: 100%;
-}
-/* END */
+// #partnership-container {
+//   width: 100%;
+// }
+// /* END */
 
-/* _header.html.erb */
-#partnership-header {
-  // Background image for the page header
-  background-image: url("ny-rooftop.jpeg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: 100% 93%;
-  height: 408px;
-  color: white;
-}
-/* END */
+// /* _header.html.erb */
+// #partnership-header {
+//   // Background image for the page header
+//   background-image: url("ny-rooftop.jpeg");
+//   background-size: 100%;
+//   background-repeat: no-repeat;
+//   background-position: 100% 93%;
+//   height: 408px;
+//   color: white;
+// }
+// /* END */
 
-/* _establish_partnership.html.erb */
-#establish-partnership {
-  background-color: $establish-partnership-background;
-  height: 600px;
-  width: 100%;
-}
+// /* _establish_partnership.html.erb */
+// #establish-partnership {
+//   background-color: $establish-partnership-background;
+//   height: 600px;
+//   width: 100%;
+// }
 
-#establish-partnership-img {
-  background-image: url("class-is-fun.jpg");
-  background-size: auto 100%;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  height: 100%;
-}
+// #establish-partnership-img {
+//   background-image: url("class-is-fun.jpg");
+//   background-size: auto 100%;
+//   background-position: 50%;
+//   background-repeat: no-repeat;
+//   height: 100%;
+// }
 
-#partnership-description {
-  padding-left: 100px;
+// #partnership-description {
+//   padding-left: 100px;
 
-  h3, h5, p {
-    display:block;
-    width:300px;
-    word-wrap:break-word;
+//   h3, h5, p {
+//     display:block;
+//     width:300px;
+//     word-wrap:break-word;
     
-  }
+//   }
 
-  h3, h5 {
-    color: white;
-  }
+//   h3, h5 {
+//     color: white;
+//   }
 
-  p {
-    color: $establish-partnership-detail;
-  }
+//   p {
+//     color: $establish-partnership-detail;
+//   }
 
-  h3 {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    text-align: left;
-  }
+//   h3 {
+//     margin-top: 50px;
+//     margin-bottom: 30px;
+//     text-align: left;
+//   }
 
-  .partner-detail {
-    .title {
-      margin-bottom: 20px;
-    }
+//   .partner-detail {
+//     .title {
+//       margin-bottom: 20px;
+//     }
 
-    .detail {
-      margin-bottom: 50px;
-    }
-  }
-}
-/* END */
+//     .detail {
+//       margin-bottom: 50px;
+//     }
+//   }
+// }
+// /* END */
 
 
-/* _hiring_steps.html.erb */
-.partnering-steps-section {
-  margin-top: 15px;
-  margin-bottom: 50px;
-}
+// /* _hiring_steps.html.erb */
+// .partnering-steps-section {
+//   margin-top: 15px;
+//   margin-bottom: 50px;
+// }
 
-.section-title {
-  text-align: left;
-  margin-bottom: 10px;
-}
+// .section-title {
+//   text-align: left;
+//   margin-bottom: 10px;
+// }
 
-// TODO: Confirm with Sarah
-.section-subtext {
-  // color: #666666;
-}
+// // TODO: Confirm with Sarah
+// .section-subtext {
+//   // color: #666666;
+// }
 
-.partnering-step {
-  margin-top: 15px;
-  margin-bottom: 30px;
+// .partnering-step {
+//   margin-top: 15px;
+//   margin-bottom: 30px;
 
-  h5 {
-    display: inline-block;
-    margin-bottom: 15px;
-  }
-}
-/* END */
+//   h5 {
+//     display: inline-block;
+//     margin-bottom: 15px;
+//   }
+// }
+// /* END */

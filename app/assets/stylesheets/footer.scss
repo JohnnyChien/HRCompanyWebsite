@@ -1,49 +1,49 @@
-$footer-height: 52px;
-$footer-background-color: #282828;
-$footer-font-size: 9px;
-$footer-text-color: #666666;
-$select-color: #484848;
+// $footer-height: 52px;
+// $footer-background-color: #282828;
+// $footer-font-size: 9px;
+// $footer-text-color: #666666;
+// $select-color: #484848;
 
-.footer {
-  bottom: 0;
-  width: 100%;
-  height: $footer-height;
-  background-color: $footer-background-color;
+// .footer {
+//   bottom: 0;
+//   width: 100%;
+//   height: $footer-height;
+//   background-color: $footer-background-color;
 
-  .footer-content {
-    @include url-style($footer-font-size);
-    vertical-align: middle;
-    line-height: $footer-height;
-    // padding-left: 25px;
-    // padding-right: 25px;
-    // margin-right: 10px;
-  }
+//   .footer-content {
+//     @include url-style($footer-font-size);
+//     vertical-align: middle;
+//     line-height: $footer-height;
+//     // padding-left: 25px;
+//     // padding-right: 25px;
+//     // margin-right: 10px;
+//   }
 
-  #copyright-text {
-    font-size: 12px;
-    color: $footer-text-color;
-  }
+//   #copyright-text {
+//     font-size: 12px;
+//     color: $footer-text-color;
+//   }
 
-  button, button:hover, button:active, .btn {
-    background-color: $select-color;
-    border-radius: 0%;
-    border: none;
-  }
+//   button, button:hover, button:active, .btn {
+//     background-color: $select-color;
+//     border-radius: 0%;
+//     border: none;
+//   }
 
-  span {
-    color: white;
-  }
+//   span {
+//     color: white;
+//   }
 
-  .dropdown-menu {
-    background-color: $select-color;
-  }
+//   .dropdown-menu {
+//     background-color: $select-color;
+//   }
 
-  .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    background-color: $footer-background-color;
-    outline: 0;
-  }
+//   .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+//     background-color: $footer-background-color;
+//     outline: 0;
+//   }
 
-  .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-    background-color: $select-color;
-  }
-}
+//   .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
+//     background-color: $select-color;
+//   }
+// }

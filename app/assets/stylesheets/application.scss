@@ -1,139 +1,139 @@
 @import "*";
-$navbar-font-size: 11px;
-$float-nav-color: rgba(255, 255, 255, 0.97);
-$nav-default-color: #333;
-$nav-hover-color: #666;
-$default-text-color: #444444;
+// $navbar-font-size: 11px;
+// $float-nav-color: rgba(255, 255, 255, 0.97);
+// $nav-default-color: #333;
+// $nav-hover-color: #666;
+// $default-text-color: #444444;
 
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 600px;
-}
-
-.page-title-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 200px;
-}
-
-.page-title {
-  max-width: 600px;
-  word-wrap:break-word;
-}
-
-// Override Bootstrap navbar hover state
-ul.nav a:hover {
-  background-color: transparent;
-}
-
-// Aligns nav bar options with the logo
-.navbar-nav li a {
-	@include url-style($navbar-font-size);
-  line-height: 40px;
-  color: $nav-default-color;
-}
-
-.navbar-nav li a:hover {
-  color:  $nav-hover-color;
-}
-
-.not-floating-navbar li a {
-  color: white;
-}
-
-.not-floating-navbar li a:hover {
-  color: $white-nav-hover-color;
-}
-
-.navbar-brand {
-  text-align: center;
-  line-height: 25px;
-}
-
-.navbar-brand span#logo-text {
-  margin-left: 20px;
-}
-
-span.floating-text {
-  color: $default-text-color;
-}
-
-span.not-floating-text {
-  color: white;
-}
-
-.floating-nav {
-  background-color: $float-nav-color;
-}
-
-// .hidden {
-// 	display: none;
+// .header {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 600px;
 // }
 
-.hidden {
-  opacity:0;
-}
+// .page-title-container {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 200px;
+// }
 
-.visible {
-  opacity:1;
-}
+// .page-title {
+//   max-width: 600px;
+//   word-wrap:break-word;
+// }
 
-.no-margin {
-  margin: 0px;
-}
+// // Override Bootstrap navbar hover state
+// ul.nav a:hover {
+//   background-color: transparent;
+// }
 
-.no-side-margin {
-  margin-left: 0px;
-  margin-right: 0px;
-}
+// // Aligns nav bar options with the logo
+// .navbar-nav li a {
+// 	@include url-style($navbar-font-size);
+//   line-height: 40px;
+//   color: $nav-default-color;
+// }
 
-.no-padding {
-  padding: 0px;
-}
+// .navbar-nav li a:hover {
+//   color:  $nav-hover-color;
+// }
 
-.no-side-padding {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+// .not-floating-navbar li a {
+//   color: white;
+// }
 
-/*
- * Keyframes
- */
+// .not-floating-navbar li a:hover {
+//   color: $white-nav-hover-color;
+// }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+// .navbar-brand {
+//   text-align: center;
+//   line-height: 25px;
+// }
 
-  100% {
-    opacity: 1;
-  }
-}
+// .navbar-brand span#logo-text {
+//   margin-left: 20px;
+// }
 
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
+// span.floating-text {
+//   color: $default-text-color;
+// }
 
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
+// span.not-floating-text {
+//   color: white;
+// }
 
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
+// .floating-nav {
+//   background-color: $float-nav-color;
+// }
 
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
+// // .hidden {
+// // 	display: none;
+// // }
+
+// .hidden {
+//   opacity:0;
+// }
+
+// .visible {
+//   opacity:1;
+// }
+
+// .no-margin {
+//   margin: 0px;
+// }
+
+// .no-side-margin {
+//   margin-left: 0px;
+//   margin-right: 0px;
+// }
+
+// .no-padding {
+//   padding: 0px;
+// }
+
+// .no-side-padding {
+//   padding-left: 0px;
+//   padding-right: 0px;
+// }
+
+// /*
+//  * Keyframes
+//  */
+
+// @keyframes fadeIn {
+//   0% {
+//     opacity: 0;
+//   }
+
+//   100% {
+//     opacity: 1;
+//   }
+// }
+
+// @keyframes fadeInUp {
+//   0% {
+//     opacity: 0;
+//     transform: translate3d(0, 100%, 0);
+//   }
+
+//   100% {
+//     opacity: 1;
+//     transform: none;
+//   }
+// }
+
+// @keyframes fadeInRight {
+//   0% {
+//     opacity: 0;
+//     transform: translate3d(100%, 0, 0);
+//   }
+
+//   100% {
+//     opacity: 1;
+//     transform: none;
+//   }
+// }
