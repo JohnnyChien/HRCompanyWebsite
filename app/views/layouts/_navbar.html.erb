@@ -1,25 +1,54 @@
-<header class="navbar navbar-fixed-top not-floating-navbar" role="navigation">
-	<div class="container">
-	  <div class="navbar-header">
-	    <a class="navbar-brand" href="about">
-	    	<%= image_tag "logo_white.png", :class=>"pull-left", :id=>"logo-img" %>
-	    	<span id="logo-text" class="not-floating-text">Lucky Country</span>
-	    </a>
-	    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-	      	data-target="#menu">
-	          <span class="sr-only">Toggle navigation</span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	          <span class="icon-bar"></span>
-	     </button>
-	  </div>
-	  <div class="navbar-class collapse navbar-collapse" id="menu">
-	      <ul class="nav navbar-nav pull-right" id="web-nav-bar">
-	        <li><%=link_to "ABOUT", "about"%></li>
-	        <li><%=link_to "SERVICES", "services" %></li>
-	        <li><%=link_to "PARTNERSHIP", "partnership" %></li>
-	        <li><%=link_to'CONTACT', "contact"%></li>
-	      </ul>
-	  </div>
-	</div>
-</header>
+<!-- TODO: Remove below -->
+<!-- <header class="navbar navbar-fixed-top not-floating-navbar" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <a class="navbar-brand" href="about">
+      < %= image_tag "logo_white.png", :class=>"pull-left", :id=>"logo-img" %>
+      <span id="logo-text" class="not-floating-text">Lucky Country</span>
+    </a>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    <div class="navbar-class collapse navbar-collapse" id="menu">
+      <ul class="nav navbar-nav" id="web-nav-bar">
+        <li>< %=link_to "ABOUT", "about"%></li>
+        <li>< %=link_to "SERVICES", "services" %></li>
+        <li>< %=link_to "PARTNERSHIP", "partnership" %></li>
+        <li>< %=link_to'CONTACT', "contact"%></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</header> -->
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="about">
+      <%= image_tag "logo_white.png", :class=>"pull-left", :id=>"logo-img" %>
+      <span id="logo-text" class="not-floating-text">Lucky Country</span>
+    </a>
+  </div>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+    <li><%= link_to "ABOUT", "about"%></li>
+        <li><%= link_to "SERVICES", "services" %></li>
+        <li><%= link_to "PARTNERSHIP", "partnership" %></li>
+        <li><%= link_to'CONTACT', "contact"%></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
