@@ -1,17 +1,16 @@
-// $white-nav-hover-color: #dddddd;
+$white-nav-hover-color: #dddddd;
 
-// #contact-header {
-// 	// Background image for the page header
-// 	background-image: url("blue-wall.jpeg");
-// 	background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: 100% 30%;
-// 	height: 408px;
+#contact-header {
+	// Background image for the page header
+	background-image: url("blue-wall.jpeg");
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% auto;
 
-//   #contact-title {
-//     color: white;
-//   }
-// }
+  #contact-title {
+    color: white;
+  }
+}
 
 // #contact-page-content {
 //   margin-top: 40px;
@@ -32,7 +31,7 @@
 // 	width: 50%;
 
 // 	textarea:focus {
-//     outline: 0;
+//     outline: 0;n
 //     border-style: solid;
 // 	}
 

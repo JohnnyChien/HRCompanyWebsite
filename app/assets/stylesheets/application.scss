@@ -1,17 +1,12 @@
 @import "*";
-// $navbar-font-size: 11px;
-// $float-nav-color: rgba(255, 255, 255, 0.97);
-// $nav-default-color: #333;
-// $nav-hover-color: #666;
-// $default-text-color: #444444;
 
-
-// .header {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   height: 600px;
-// }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 60em;
+  min-height: 30em;
+}
 
 // .page-title-container {
 //   display: flex;
@@ -25,54 +20,9 @@
 //   word-wrap:break-word;
 // }
 
-// // Override Bootstrap navbar hover state
-// ul.nav a:hover {
-//   background-color: transparent;
+// .hidden {
+// 	display: none;
 // }
-
-// // Aligns nav bar options with the logo
-// .navbar-nav li a {
-// 	@include url-style($navbar-font-size);
-//   line-height: 40px;
-//   color: $nav-default-color;
-// }
-
-// .navbar-nav li a:hover {
-//   color:  $nav-hover-color;
-// }
-
-// .not-floating-navbar li a {
-//   color: white;
-// }
-
-// .not-floating-navbar li a:hover {
-//   color: $white-nav-hover-color;
-// }
-
-// .navbar-brand {
-//   text-align: center;
-//   line-height: 25px;
-// }
-
-// .navbar-brand span#logo-text {
-//   margin-left: 20px;
-// }
-
-// span.floating-text {
-//   color: $default-text-color;
-// }
-
-// span.not-floating-text {
-//   color: white;
-// }
-
-// .floating-nav {
-//   background-color: $float-nav-color;
-// }
-
-// // .hidden {
-// // 	display: none;
-// // }
 
 // .hidden {
 //   opacity:0;
