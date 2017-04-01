@@ -18,46 +18,39 @@ $link-color: black;
   border-style: none;
 }
 
-// // Aligns nav bar options with the logo
-// .navbar-nav li a {
-//   @include url-style($navbar-font-size);
-//   // line-height: 40px;
-//   color: $nav-default-color;
-// }
+.navbar-nav li a:hover {
+  color:  $nav-hover-color;
+}
 
-// .navbar-nav li a:hover {
-//   color:  $nav-hover-color;
-// }
-
-// .not-floating-navbar li a {
-//   color: white;
-// }
-
-.nav-url {
+#page-urls .not-floating-navbar li a {
   color: white;
 }
 
-// .not-floating-navbar li a:hover {
-//   color: $white-nav-hover-color;
-// }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
 
-// .navbar-brand {
-//   text-align: center;
-//   line-height: 25px;
-// }
+.not-floating-navbar li a:hover {
+  color: $white-nav-hover-color;
+}
 
-// .navbar-brand span#logo-text {
-//   margin-left: 20px;
-// }
-
-// span.floating-text {
-//   color: $default-text-color;
-// }
+span.floating-text {
+  color: $default-text-color;
+}
 
 span.not-floating-text {
   color: white;
 }
 
-// .floating-nav {
-//   background-color: $float-nav-color;
-// }
+#logo-img {
+  display: inline-block;
+  padding-right: 0.2em;
+}
+
+.floating-nav {
+  background-color: $float-nav-color;
+}
+
+#page-urls .floating-navb li a {
+  color: $default-text-color;
+}

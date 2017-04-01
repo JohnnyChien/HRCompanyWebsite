@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root 'about#index'
+  root 'contact#index'
   get 'contact' => 'contact#index'
   post 'contact/email' => 'contact#email'
   get 'about' => 'about#index'
