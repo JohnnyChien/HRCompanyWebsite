@@ -12,38 +12,34 @@ $white-nav-hover-color: #dddddd;
   }
 }
 
-// #contact-page-content {
-//   margin-top: 40px;
-//   margin-bottom: 40px;
-// }
+#contact-page-content {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
 
-// .contact-info {
-// 	margin-left: 145px;
-// }
+#addr span {
+	// Separate address into separate lines for display
+  // Not using p to avoid overriding default margin
+	display: block;
+}
 
-// #addr span {
-// 	// Separate address into separate lines for display
-//   // Not using p to avoid overriding default margin
-// 	display: block;
-// }
+#contact-form-div {
+	width: 50%;
 
-// #contact-form-div {
-// 	width: 50%;
+	textarea:focus {
+    outline: 0;
+    border-style: solid;
+	}
 
-// 	textarea:focus {
-//     outline: 0;n
-//     border-style: solid;
-// 	}
+	input:focus {
+    outline: 0;
+	}
 
-// 	input:focus {
-//     outline: 0;
-// 	}
-
-// 	textarea, input {
-// 		border-width: 1px;
-// 		border-style: none none solid none;
-// 		width: 100%;
-// 		margin-bottom: 20px;
-// 		resize: none;
-// 	}
-// }
+	textarea, input {
+		border-width: 0.1em;
+		border-style: none none solid none;
+		width: 100%;
+		margin-bottom: 1em;
+		resize: none;
+	}
+}
