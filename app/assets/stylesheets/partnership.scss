@@ -1,8 +1,9 @@
-// $template-color: #B2B2B2;
-// $contact-send-color: #222;
-// $establish-partnership-background: #282828;
-// $establish-partnership-detail: #c2c2c2;
-// $white-nav-hover-color: #dddddd;
+$template-color: #B2B2B2;
+$contact-send-color: #222;
+$establish-partnership-background: #282828;
+$establish-partnership-detail: #c2c2c2;
+$white-nav-hover-color: #dddddd;
+$on-hover-color: #222;
 
 // /* Partnership Page */
 // #partnership-page-content {
@@ -14,93 +15,165 @@
 // }
 // /* END */
 
-// /* _header.html.erb */
-// #partnership-header {
-//   // Background image for the page header
-//   background-image: url("ny-rooftop.jpeg");
-//   background-size: 100%;
-//   background-repeat: no-repeat;
-//   background-position: 100% 93%;
-//   height: 408px;
-//   color: white;
-// }
+#partnership-header {
+  // Background image for the page header
+  background-image: url("ny-rooftop.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  color: white;
+}
+
+/* _hiring_steps.html.erb */
+.partnering-steps-section {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.section-title {
+  text-align: left;
+  margin-bottom: 0.7em;
+}
+
+.section-subtext {
+  color: #666666;
+}
+
+.partnering-step {
+  margin-top: 1em;
+  margin-bottom: 2em;
+
+  h5 {
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+}
 // /* END */
 
 // /* _establish_partnership.html.erb */
-// #establish-partnership {
-//   background-color: $establish-partnership-background;
-//   height: 600px;
-//   width: 100%;
-// }
+div#partnership-container {
+  background-color: $establish-partnership-background;
+}
 
-// #establish-partnership-img {
-//   background-image: url("class-is-fun.jpg");
-//   background-size: auto 100%;
-//   background-position: 50%;
-//   background-repeat: no-repeat;
-//   height: 100%;
-// }
+@media (min-width: 0px) {
+  #partnership-img-wrapper {
+    margin-left: 0em;
+    padding-left: 0em;
+  }
+}
 
-// #partnership-description {
-//   padding-left: 100px;
+@media (min-width: 576px) {
+  #partnership-img-wrapper {
+    margin-left: 0em;
+    padding-left: 0em;
+  }
+}
 
-//   h3, h5, p {
-//     display:block;
-//     width:300px;
-//     word-wrap:break-word;
+@media (min-width: 576px) {
+  #partnership-img-wrapper {
+    margin-left: 0em;
+    padding-left: 0em;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  #establish-partnership {
+    margin-left: 3em;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #establish-partnership {
+    margin-left: 3em;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #establish-partnership {
+    margin-left: 3em;
+  }
+}
+
+#partnership-img-wrapper {
+  margin-right: 0em;
+  padding-right: 0em;
+}
+
+#partnership-img {
+  width: 100%;
+  height: 80%;
+}
+
+#partnership-description {
+  // padding-left: 100px;
+
+  h3, h5, p {
+    display:block;
+    width:85%;
+    word-wrap:break-word;
     
-//   }
+  }
 
-//   h3, h5 {
-//     color: white;
-//   }
+  h3, h5 {
+    color: white;
+  }
 
-//   p {
-//     color: $establish-partnership-detail;
-//   }
+  p {
+    color: $establish-partnership-detail;
+  }
 
-//   h3 {
-//     margin-top: 50px;
-//     margin-bottom: 30px;
-//     text-align: left;
-//   }
+  h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: left;
+  }
 
-//   .partner-detail {
-//     .title {
-//       margin-bottom: 20px;
-//     }
+  .partner-detail {
+    .title {
+      margin-bottom: 1em;
+    }
 
-//     .detail {
-//       margin-bottom: 50px;
-//     }
-//   }
-// }
+    .detail {
+      margin-bottom: 2.5em;
+    }
+  }
+}
 // /* END */
 
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-// /* _hiring_steps.html.erb */
-// .partnering-steps-section {
-//   margin-top: 15px;
-//   margin-bottom: 50px;
-// }
+.become-our-partner {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  // padding-top: 90px;
+  // padding-bottom:90px;
+  // height: 450px;
+  // background-color: #f2f2f2;
 
-// .section-title {
-//   text-align: left;
-//   margin-bottom: 10px;
-// }
+  h2 {
+    margin-bottom: 1em;
+  }
 
-// // TODO: Confirm with Sarah
-// .section-subtext {
-//   // color: #666666;
-// }
+  p {
+    margin-left: 20em;
+    margin-right: 20em;
+    text-align: center;
+    margin-bottom: 3em;
+  }
 
-// .partnering-step {
-//   margin-top: 15px;
-//   margin-bottom: 30px;
+  // .three-sided-border-container {
+  //   left: 40%;
+  //   width: 250px;
+  // }
 
-//   h5 {
-//     display: inline-block;
-//     margin-bottom: 15px;
-//   }
-// }
-// /* END */
+  // div.three-sided-border:before {
+  //   background-color: $on-hover-color;
+  // }
+}
