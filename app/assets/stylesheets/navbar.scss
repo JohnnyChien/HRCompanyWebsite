@@ -26,9 +26,13 @@ $link-color: black;
   color: white;
 }
 
+#page-urls .floating-navbar li a {
+  color: $default-text-color;
+}
+
 // Hamburger button stripes
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+  background-color: white;
 }
 
 .not-floating-navbar li a:hover {
@@ -50,8 +54,4 @@ span.not-floating-text {
 
 .floating-nav {
   background-color: $float-nav-color;
-}
-
-#page-urls .floating-navb li a {
-  color: $default-text-color;
 }
