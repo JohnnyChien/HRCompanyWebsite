@@ -1,134 +1,111 @@
-// $service-detail-border: #bfbfbf;
-// $service-hover-color: #ffffff;
-// $white-nav-hover-color: #dddddd;
-// $on-hover-color: #222;
-// $recruitment-background: #282828;
+$service-detail-border: #bfbfbf;
+$service-hover-color: #ffffff;
+$white-nav-hover-color: #dddddd;
+$on-hover-color: #222;
+$recruitment-background: #282828;
 
-// #services-header {
-// 	// Background image for the page header
-// 	background-image: url("worker_back.jpeg");
-// 	background-size: 100%;
-//   background-repeat: no-repeat;
-// 	height: 408px;
-//   color: white;
-// }
+#services-header {
+	// Background image for the page header
+  background-image: url("worker_back.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 90%;
+  color: white;
+}
 
-// #service-page-content {
-//   // Different from other pages because of the padding-top
-//   // of service details 
-//   margin-top: 20px;
-// }
+#service-page-content {
+  // Different from other pages because of the padding-top
+  // of service details 
+  margin-top: 4em;
+  // max-width: 1200px;
+}
 
-// // categories partial
-// .service-detail {
-//   border-bottom-color: $service-detail-border;
-//   border-bottom-style: solid;
-//   border-bottom-width: 1px;
-//   padding: 20px 20px 25px 20px;
-//   transition-property: background;
-//   transition-duration: 0.5s;
-//   transition-timing-function: linear;
+// categories partial
+.service-detail {
+  border-bottom-color: $service-detail-border;
+  border-bottom-style: solid;
+  border-bottom-width: 0.1em;
+  padding: 1em 1em 1em 1em;
+  transition-property: background;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
 
-//   &:hover {
-//     background-color: $text-color;
-//     border: none;
-//     color: $service-hover-color;
+  &:hover {
+    background-color: $text-color;
+    border: none;
+    color: $service-hover-color;
 
-//     h4.service-title, p.service-description {
-//       color: $service-hover-color;
-//     }
-//   }
+    h4.service-title, p.service-description {
+      color: $service-hover-color;
+    }
+  }
 
-//   h4.service-title {
-//     margin-top: 0px;
-//   }
+  h4.service-title {
+    margin-top: 0em;
+  }
 
-//   p.service-description {
-//     margin-top:18px;
-//   }
-// }
+  p.service-description {
+    margin-top:0.5em;
+  }
+}
 
-// #services-row-two {
-//   margin-top: 60px;
-//   margin-bottom: 60px;
-// }
+#services-row-two {
+  margin-bottom: 4em;
+}
 
-// // Recruitment partial
-// #recruitment-to-deployment-container {
-//   width: 100%;
-// }
+#recruitment-container {
+  background-color: $recruitment-background;
+}
 
-// #recruitment-to-deployment {
-//   background-color: $recruitment-background;
-//   height: 600px;
-//   width: 100%;
-// }
+#recruitment-img-wrapper {
+    margin-left: 0em;
+    padding-left: 0em;
+}
 
-// #recruitment-img {
-//   background-image: url("training-center.JPG");
-//   background-repeat: no-repeat;
-//   background-size: 100% 100%;
-//   height:100%;
-// }
+@media (min-width: 0px) {
+  #recruitment-img-wrapper {
+    margin-right: 0em;
+    padding-right: 0em;
+  }
+}
 
-// #recruitment-description {
-//   padding-left: 55px;
+@media (min-width: 576px) {
+  #recruitment-img-wrapper {
+    margin-right: 0em;
+    padding-right: 0em;
+  }
+}
 
-//   h3, span {
-//     color: white;
-//   }
+@media (min-width: 576px) {
+  #recruitment-img-wrapper {
+    margin-right: 0em;
+    padding-right: 0em;
+  }
+}
 
-//   h3 {
-//     margin-top: 60px;
-//     margin-bottom: 70px;
-//     text-align: left;
-//   }
+#recruitment-img {
+  width: 100%;
+  height: 80%;
+}
 
-//   .recruitment-detail {
-//     margin-bottom: 30px;
+#recruitment-description {
+  padding-left: 4em;
 
-//     .detail {
-//       width:250px;
-//       word-wrap:break-word;
-//       display: inline-block;
-//     }
+  h3, span {
+    color: white;
+  }
 
-//     .number {
-//       margin-right: 25px;
-//     }
+  h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
 
-//     div {
-//       display: inline-block;
-//       vertical-align: top;
-//     }
-//   }
-// }
+  .recruitment-detail {
+    margin-bottom: 2em;
 
-// .become-our-partner {
-//   // margin-top: 50px;
-//   // margin-bottom: 50px;
-//   padding-top: 90px;
-//   padding-bottom:90px;
-//   height: 450px;
-//   // background-color: #f2f2f2;
-
-//   h2 {
-//     margin-bottom: 30px;
-//   }
-
-//   p {
-//     margin-left: 300px;
-//     margin-right: 300px;
-//     text-align: center;
-//     margin-bottom: 30px;
-//   }
-
-//   .three-sided-border-container {
-//     left: 40%;
-//     width: 250px;
-//   }
-
-//   div.three-sided-border:before {
-//     background: $on-hover-color;
-//   }
-// }
+    .detail {
+      width: 80%;
+      word-wrap:break-word;
+    }
+  }
+}
