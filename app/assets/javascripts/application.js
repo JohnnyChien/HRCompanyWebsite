@@ -27,3 +27,8 @@ $(document).on('page:change', function() {
   initNavbarScrolling();
   $('.selectpicker').selectpicker('render');
 });
+
+$('video').on('ended', function () {
+  this.load();
+  this.play();
+});
