@@ -1,5 +1,8 @@
+<%= javascript_tag do %>
+  new ScrollTransition().init();
+<% end %>
 <%= render 'header' %>
-<div class="page-content transition fadeIn" data-transition-duration="1s"  id="partnership-page-content">
+<div class="page-content transition fadeIn" data-transition-duration="1.5s" id="partnership-page-content">
   <%= render 'hiring_steps' %>
   <%= render 'establish_partnership' %>
   <%= render 'become_partners' %>

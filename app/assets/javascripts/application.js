@@ -17,16 +17,11 @@
 //= require_tree .
 
 $(document).ready(function() {
-  new ScrollTransition().init();
+  // new ScrollTransition().init();
   initNavbarScrolling();
-  bootstrapSelect($);
+  // bootstrapSelect($);
 });
 
-$(document).on('page:change', function() {
-  new ScrollTransition().init();
-  initNavbarScrolling();
-  $('.selectpicker').selectpicker('render');
-});
 
 $('video').on('ended', function () {
   this.load();
