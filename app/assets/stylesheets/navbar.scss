@@ -35,6 +35,16 @@ $link-color: black;
   background-color: white;
 }
 
+// Hamburger button stripes
+.navbar-default .navbar-toggle .icon-bar.not-floating {
+  background-color: white;
+}
+
+// Hamburger button stripes
+.navbar-default .navbar-toggle .icon-bar.floating {
+  background-color: $default-text-color;
+}
+
 .not-floating-navbar li a:hover {
   color: $white-nav-hover-color;
 }
