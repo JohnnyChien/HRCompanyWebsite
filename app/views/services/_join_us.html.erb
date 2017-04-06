@@ -1,6 +1,5 @@
-<div class="flex-wrapper">
-  <div class="become-our-partner" class="instruction-detail transition fadeIn"
-    data-transition-offset="50" data-transition-delay="0.5s">
+<div class="flex-wrapper" class="instruction-detail transition fadeIn" data-transition-delay="3s">
+  <div class="become-our-partner">
     <div class="flex-wrapper">
       <h2>Join our team</h2>
     </div>
@@ -10,9 +9,10 @@
       </p>
     </div>
     <div class="flex-wrapper">
-      <div class="three-sided-border-container" id="join-button">
-        <%=link_to "Join the partnership", "contact", class: "three-sided-border" %>
-      </div>
+<!--       <div class="three-sided-border-container" id="join-button">
+        < %=link_to "Join the partnership", "contact", class: "three-sided-border" %>
+      </div> -->
+      <%= render "layouts/three_border_button" %>
     </div>
   </div>
 </div>

@@ -1,3 +1,6 @@
+# http://mynameismatthieu.com/WOW/docs.html
+# https://daneden.github.io/animate.css/
+
 class Util
   extend: (custom, defaults) ->
     custom[key] ?= value for key, value of defaults
