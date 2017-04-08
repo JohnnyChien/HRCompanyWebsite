@@ -26,8 +26,13 @@ $small-text-color: #333;
     letter-spacing: 0.1rem;;
   }
 
-  span, p, a {
+  span, p {
     font-size: 14px;
+  }
+
+  a {
+    font-size: 11px;
+    letter-spacing: 1px;
   }
 
   span.small-text, p.small-text {
