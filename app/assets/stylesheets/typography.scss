@@ -1,7 +1,7 @@
 $text-color: #444444;
 $small-text-color: #333;
 
-@media (min-width: 0px) { 
+@media (min-width: 576px) { 
   h1 {
     font-size: 48px;
     letter-spacing: 2px;
@@ -41,6 +41,48 @@ $small-text-color: #333;
     line-height: 40px;
   }
 }
+
+@media (max-width: 576px) { 
+  h1 {
+    font-size: 24px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    line-height: 48px;
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+  }
+
+  h5 {
+    font-size: 18px;
+    letter-spacing: 0.1rem;;
+  }
+
+  span, p {
+    font-size: 14px;
+  }
+
+  a {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  span.small-text, p.small-text {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 40px;
+  }
+}
+
 
 /* Not affected by screen size */
 
