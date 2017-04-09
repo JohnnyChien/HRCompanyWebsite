@@ -5,3 +5,9 @@
   max-height: 60em;
   min-height: 30em;
 }
+
+@media (max-width: 576px) { 
+  .header {
+    min-height: 20em;
+  }
+}

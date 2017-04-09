@@ -127,7 +127,7 @@ div#partnership-container {
 
   h3 {
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     text-align: left;
   }
 
@@ -170,4 +170,13 @@ div#partnership-container {
   // div.three-sided-border:before {
   //   background-color: $on-hover-color;
   // }
+}
+
+@media (max-width: 576px) {
+  .become-our-partner {
+    p {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
 }

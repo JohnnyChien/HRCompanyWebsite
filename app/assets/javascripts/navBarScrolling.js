@@ -1,6 +1,7 @@
 var initNavbarScrolling = function() {
   $(document).scroll(function(e){
     var scrollTop = $(document).scrollTop();
+
     if(scrollTop > 0){
         $('nav.navbar').addClass('floating-nav').removeClass('not-floating-navbar');
         $('ul.navbar-nav').addClass('floating-nav').removeClass('not-floating-navbar');

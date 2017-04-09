@@ -1,15 +1,18 @@
 $white-nav-hover-color: #dddddd;
 
 /* header.html.erb */
+
 #about-header {
   position: relative;
   color: white;
+  height:40em;
 }
 
 #about-title {
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 1.3em;
 }
 
 .video-insert {
@@ -56,7 +59,7 @@ $white-nav-hover-color: #dddddd;
 .what-we-do-block {
   h4 {
     margin-top: 2em;
-    margin-bottom: 0em;
+    margin-bottom: 0.5em;
   }
 
   img {
@@ -76,10 +79,11 @@ $white-nav-hover-color: #dddddd;
   .company-statement-content {
 
     h2 {
-      margin-left: 20%;
-      margin-right: 20%;
+      margin-left: 15%;
+      margin-right: 15%;
       margin-bottom: 1em;
       text-align: center;
+      line-height: 1.3em;
     }
 
     .three-sided-border-container {
@@ -95,4 +99,32 @@ $white-nav-hover-color: #dddddd;
 
 #world-map-img {
   min-width: 100%;
+}
+
+@media (max-width: 576px) { 
+  #about-title {
+    margin-left:10%;
+    margin-right: 10%;
+  }
+  .what-we-do-block {
+    h4 {
+      margin-left:5%;
+      margin-right:5%;
+    }
+
+    p {
+      margin-left:5%;
+      margin-right:5%;
+    }
+  }
+  #company-statement {
+    margin-top: 10%;
+    margin-bottom: 10%;
+      .company-statement-content {
+        h2 {
+          margin-left: 10%;
+          margin-right: 10%;;
+        }
+      }
+  }
 }

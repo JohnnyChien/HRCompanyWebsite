@@ -46,3 +46,11 @@ $on-hover-color: #222;
 .three-sided-border:hover:before {
   top: 0;
 }
+
+@media (max-width: 576px) { 
+  .three-sided-border-container {
+    width: 100%;
+    margin-left:5%;
+    margin-right:5%;
+  }
+}

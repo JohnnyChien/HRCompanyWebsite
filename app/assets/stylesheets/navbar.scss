@@ -30,6 +30,12 @@ $link-color: black;
   color: $default-text-color;
 }
 
+// Hamburger button
+.navbar-default button.navbar-toggle {
+  border: none;
+  border-radius: 2px;
+}
+
 // Hamburger button stripes
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;

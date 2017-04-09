@@ -40,6 +40,19 @@ $white-nav-hover-color: #dddddd;
 		border-style: none none solid none;
 		width: 100%;
 		margin-bottom: 1em;
+		padding-bottom: 0.5em;
 		resize: none;
 	}
+}
+
+@media (max-width: 576px) {
+  #contact-form-div {
+    width: 100%;
+    margin-top:3em;
+
+    .three-sided-border-container {
+	  margin-left:0%;
+	  margin-right:0%;
+	}
+  }
 }
