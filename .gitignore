@@ -143,3 +143,4 @@ bower.json
 
 # AWS Private Key File
 devenv-key.pem
+EC2_Key_Pair.pem
