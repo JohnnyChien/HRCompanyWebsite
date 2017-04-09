@@ -2,7 +2,7 @@ $white-nav-hover-color: #dddddd;
 
 #contact-header {
 	// Background image for the page header
-	background-image: url("blue-wall.jpeg");
+	background-image: asset-url("blue-wall.jpeg");
 	background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 30%;

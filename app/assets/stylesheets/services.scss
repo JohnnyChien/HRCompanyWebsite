@@ -6,7 +6,7 @@ $recruitment-background: #282828;
 
 #services-header {
 	// Background image for the page header
-  background-image: url("worker_back.jpeg");
+  background-image: asset-url("worker_back.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 90%;
