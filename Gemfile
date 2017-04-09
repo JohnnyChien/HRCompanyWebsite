@@ -37,6 +37,7 @@ gem 'font-awesome-sass', '~> 4.4.0'
 
 gem 'animate-scss'
 gem "animate-rails"
+gem 'puma'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
