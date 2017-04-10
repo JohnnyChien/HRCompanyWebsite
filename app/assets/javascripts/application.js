@@ -18,8 +18,12 @@
 
 $(document).ready(function() {
   // new ScrollTransition().init();
-  initNavbarScrolling();
+  
   // bootstrapSelect($);
+  initNavbarState();
+  initNavbarScrolling();
+  resizeNavbarHandler();
+
 });
 
 
