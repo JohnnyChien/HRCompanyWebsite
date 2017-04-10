@@ -8,8 +8,10 @@
 	  <%= csrf_meta_tags %>
 	  <!-- Google Font Roboto -->
 	  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	  <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
-		<link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
+	  <!-- <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" /> -->
+		<link rel="icon" type="image/png" href=<%=image_path("favicon-32x32.png")%> sizes="32x32" />
+		<link rel="icon" type="image/png" href=<%=image_path("favicon-16x16.png")%> sizes="16x16" />
 	</head>
 	<body>
 	  <p class="notice hidden"><%= notice %></p>
