@@ -42,7 +42,7 @@ $white-nav-hover-color: #dddddd;
 }
 
 #pattern {
-    background-image: url(pattern.png);
+    background-image: asset-url("pattern.png");
     background-repeat: repeat;
     width: 100%;
     height: 100%;
