@@ -1,3 +1,10 @@
+
+To start the server:
+rails server
+
+
+
+
 The App Directory:
 
 Rails is a convention over configuration framework and as such, it automatically creates several folders under the
