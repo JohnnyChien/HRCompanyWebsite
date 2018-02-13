@@ -1,11 +1,8 @@
-To run the app:
-rails server
+To run the app locally:
+1. rails server
 
 To precompile the assets (scss, images, etc) to public folder for Heroku:
 1. RAILS_ENV=production bundle exec rake assets:precompile
-2. git add .
-3. git commit -m "Updated the static assets such as CSS"
-4. git push github master
-5. Deploy on Heroku
+2. Deploy on Heroku
 
-https://luckycountry.herokuapp.com
+Visit https://luckycountry.herokuapp.com
