@@ -7,3 +7,5 @@ To precompile the assets (scss, images, etc) to public folder for Heroku:
 3. git commit -m "Updated the static assets such as CSS"
 4. git push github master
 5. Deploy on Heroku
+
+Visit https://luckycountry.herokuapp.com/
