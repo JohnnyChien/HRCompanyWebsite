@@ -8,4 +8,4 @@ To precompile the assets (scss, images, etc) to public folder for Heroku:
 4. git push github master
 5. Deploy on Heroku
 
-Visit https://luckycountry.herokuapp.com/
+https://luckycountry.herokuapp.com
